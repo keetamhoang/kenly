@@ -15,6 +15,11 @@ Route::group(['prefix' => 'admin',
     'middleware' => ['admin']
 ], function () {
     Route::get('/', 'Backend\HomeController@index');
+    Route::get('posts', 'Backend\PostController@index');
+    Route::get('posts/add', 'Backend\PostController@create');
+
+    Route::get('users', 'Backend\UserController@index');
+    Route::get('users/add', 'Backend\UserController@create');
 });
 
 Route::get('/', 'Frontend\HomeController@index');

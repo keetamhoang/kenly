@@ -26,41 +26,41 @@
     <nav id="main-menu" class="main-menu">
         <div class="menu-button">Menu</div>
         <ul class="navigation container">
-            <li class="active"><a href="#"><i class="fa fa-home"></i><span class="home">Trang chủ</span>
+            <li class="active"><a href="{{ url('/') }}"><i class="fa fa-home"></i><span class="home">Trang chủ</span>
                 </a></li>
-            <li><a href="introduct.html">Giới thiệu</a></li>
-            <li class="has-sub"><span class="submenu-button"></span><a href="http://thietkenhakasai.com/du-an.aspx">Dự
+            <li><a href="{{ url('gioi-thieu') }}">Giới thiệu</a></li>
+            <li class="has-sub"><span class="submenu-button"></span><a href="{{ url('du-an') }}">Dự
                     án</a>
                 <ul>
 
-                    <li><a href="http://thietkenhakasai.com/nha-pho-3/Default.aspx">Nhà phố</a></li>
+                    <li><a href="{{ url('du-an/nha-pho') }}">Nhà phố</a></li>
 
-                    <li><a href="http://thietkenhakasai.com/biet-thu-4/Default.aspx">Biệt thự</a></li>
+                    <li><a href="{{ url('du-an/biet-thu') }}">Biệt thự</a></li>
 
-                    <li><a href="http://thietkenhakasai.com/khach-san-va-resort-5/Default.aspx">Khách sạn &amp;
+                    <li><a href="{{ url('du-an/khach-san') }}">Khách sạn &amp;
                             Resort</a></li>
 
-                    <li><a href="http://thietkenhakasai.com/van-phong-6/Default.aspx">Văn phòng</a></li>
+                    <li><a href="{{ url('du-an/van-phong') }}">Văn phòng</a></li>
 
-                    <li><a href="http://thietkenhakasai.com/cong-trinh-khac-7/Default.aspx">Công trình khác</a></li>
+                    <li><a href="{{ url('du-an/cong-trinh-khac') }}">Công trình khác</a></li>
 
 
                 </ul>
             </li>
 
             <li class="has-sub"><span class="submenu-button"></span><a
-                        href="dich-vu.html">Dịch vụ</a>
+                        href="{{ url('dich-vu') }}">Dịch vụ</a>
                 <ul>
-                    <li><a href="http://thietkenhakasai.com/dich-vu-2/thiet-ke-kien-truc-2.aspx">Thiết kế kiến
+                    <li><a href="{{ url('dich-vu/thiet-ke-kien-truc') }}">Thiết kế kiến
                             trúc</a></li>
-                    <li><a href="http://thietkenhakasai.com/dich-vu-2/thiet-ke-noi-that-3.aspx">Thiết kế nội
+                    <li><a href="{{ url('dich-vu/thiet-ke-noi-that') }}">Thiết kế nội
                             thất</a></li>
-                    <li><a href="http://thietkenhakasai.com/dich-vu-2/thi-cong-4.aspx">Thi công</a></li>
+                    <li><a href="{{ url('dich-vu/thi-cong') }}">Thi công</a></li>
                 </ul>
             </li>
-            <li><a href="tin-tuc.html">Tin tức</a></li>
-            <li><a href="nha-pho.html">Nhà phố</a></li>
-            <li><a href="lien-he.html">Liên hệ</a></li>
+            <li><a href="{{ url('tin-tuc') }}">Tin tức</a></li>
+            <li><a href="{{ url('nha-pho') }}">Nhà phố</a></li>
+            <li><a href="{{ url('lien-he') }}">Liên hệ</a></li>
         </ul>
     </nav>
 </header>
