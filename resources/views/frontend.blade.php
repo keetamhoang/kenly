@@ -125,6 +125,6 @@
 
 @yield('js')
 @yield('scripts')
-
+<script src="https://uhchat.net/code.php?f=8d37c8"></script>
 </body>
 </html>
