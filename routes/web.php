@@ -28,3 +28,5 @@ Route::post('login', 'Backend\AuthController@login');
 Route::get('dang-ky', 'Backend\AuthController@registerView');
 Route::post('register', 'Backend\AuthController@register');
 Route::get('logout', 'Backend\AuthController@logout');
+
+Route::get('dich-vu', 'Frontend\HomeController@dichVu');

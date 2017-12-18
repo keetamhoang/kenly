@@ -23,7 +23,7 @@
 #slider-container.ws_video_playing .ws_bullets,#slider-container.ws_video_playing .ws_fullscreen,#slider-container.ws_video_playing .ws_next,#slider-container.ws_video_playing .ws_prev{display:none}
 #slider-container .ws_video_btn{position:absolute;display:none;cursor:pointer;top:0;left:0;width:100%;height:100%;z-index:55}
 #slider-container .ws_video_btn.ws_youtube,#slider-container .ws_video_btn.ws_vimeo{display:block}
-#slider-container .ws_video_btn div{position:absolute;background-image:url(/Images/background/playvideo.png);background-size:200%;top:50%;left:50%;width:7em;height:5em;margin-left:-3.5em;margin-top:-2.5em}
+#slider-container .ws_video_btn div{position:absolute;background-image:url(/files/images/playvideo.png);background-size:200%;top:50%;left:50%;width:7em;height:5em;margin-left:-3.5em;margin-top:-2.5em}
 #slider-container .ws_video_btn.ws_youtube div{background-position:0 0}
 #slider-container .ws_video_btn.ws_youtube:hover div{background-position:100% 0}
 #slider-container .ws_video_btn.ws_vimeo div{background-position:0 100%}

@@ -15,6 +15,9 @@
     <link href="/files/css/fb.css"
           rel="stylesheet">
 
+    <link href="/css/style.css"
+          rel="stylesheet">
+
     @yield('css')
     @yield('styles')
 
@@ -77,7 +80,7 @@
         caption: false,
         captionEffect: "parallax",
         controls: true,
-        controlsThumb: ["/Images/userfiles/Slider/tn-Slider1.png", "/Images/userfiles/Slider/tn-Slider2.png", "/Images/userfiles/Slider/tn-Slider3.jpg", "/Images/userfiles/Slider/tn-Slider4.jpg"]
+        controlsThumb: ["/files/images/tn-Slider1.png", "/files/images/tn-Slider2.png", "/files/images/tn-Slider3.jpg", "/files/images/tn-Slider4.jpg"]
         ,
         responsive: 2,
         fullScreen: true,

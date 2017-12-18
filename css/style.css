@@ -1,0 +1,18 @@
+.logo{
+    width: 190px;
+}
+
+#header .banner {
+    width: 951px;
+    margin: 12px 0 10px;
+}
+
+@media (max-width: 991px) and (min-width: 768px), (min-width: 1200px) {
+    .about header h1, .about h2 {
+        font-size: 40px;
+    }
+}
+
+.page-header {
+    background-image: url(/files/images/bg-page-title-1.jpg) !important;
+}

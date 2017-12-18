@@ -3,9 +3,6 @@
 @section('content')
     <section id="slider-container" class="ws_gestures" style="font-size: 9.91146px;">
         <div class="ws_images" style="overflow: visible;">
-            <div style="position: relative; width: 100%; font-size: 0px; line-height: 0; max-height: 100%; overflow: hidden;">
-                <img src="/files/images/Slider1.png"
-                     alt="nhà phố 2 tầng" title="" style="width: 100%; visibility: hidden;"></div>
 
 
             <div style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden;">
@@ -18,16 +15,14 @@
                     <ul style="width: 100%;">
 
                         <li style="width: 10%;">
-                            <iframe src="/files/dEW-xhc_fZ4.html"
-                                    style="opacity: 0;" id="widget2"></iframe>
+                            <iframe src="https://www.youtube.com/embed/dEW-xhc_fZ4?autoplay=0&amp;rel=0&amp;enablejsapi=1&amp;playerapiid=ytplayer&amp;wmode=transparent&amp;controls=0&amp;modestbranding=1&amp;showinfo=0&amp;hd=1&amp;fs=0" style="opacity: 0;" id="widget2"></iframe>
                             <a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-2-mat-tien-23.aspx"><img
                                         src="/files/images/Slider1.png"
                                         alt="nhà phố 2 tầng" title="" style="visibility: visible; margin-top: 0px;"></a>
                         </li>
 
                         <li style="width: 10%;">
-                            <iframe src="/files/XOvqytCFlx8.html"
-                                    style="opacity: 0;" id="widget4"></iframe>
+                            <iframe src="https://www.youtube.com/embed/XOvqytCFlx8?autoplay=0&amp;rel=0&amp;enablejsapi=1&amp;playerapiid=ytplayer&amp;wmode=transparent&amp;controls=0&amp;modestbranding=1&amp;showinfo=0&amp;hd=1&amp;fs=0" style="opacity: 0;"></iframe>
                             <img src="/files/images/Slider2.png"
                                  alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
 
@@ -440,19 +435,20 @@
                 <a href="http://thietkenhakasai.com/#" class="ws_next"><span><i></i><b></b></span><img alt=""
                                                                                                        src="/files/images/tn-Slider2.png"><img
                             alt=""
-                            src="/files/tn-Slider2.png"
+                            src="/files/images/tn-Slider2.png"
                             style=""></a><a href="http://thietkenhakasai.com/#"
                                             class="ws_prev"><span><i></i><b></b></span><img alt=""
                                                                                             src="/files/images/tn-Slider4.jpg"><img
                             alt=""
-                            src="/files/tn-Slider4.jpg"
-                            style=""></a><a href="http://thietkenhakasai.com/#" class="ws_playpause ws_pause ws_hide"><span><i></i><b></b></span></a>
+                            src="/files/images/tn-Slider4.jpg"
+                            style=""></a><a href="http://thietkenhakasai.com/#"
+                                            class="ws_playpause ws_pause ws_hide"><span><i></i><b></b></span></a>
             </div>
             <div class="ws_video_btn ws_youtube">
                 <div></div>
             </div>
-            <a href="http://thietkenhakasai.com/#" class="ws_fullscreen"></a></div>
-
+            <a href="http://thietkenhakasai.com/#" class="ws_fullscreen"></a>
+        </div>
     </section>
     <section class="yellow-bg about">
         <div class="container">
@@ -462,7 +458,7 @@
                         <img class="icon"
                              src="/files/images/i1.png"
                              alt="Mẫu nhà đẹp tại đà nẵng, công ty thiết kế xây dựng tại đà nẵng">
-                        <h1 id="0563ov38z2pppts02ni4pca" class="fon-tracked">Giới thiệu chung về KASAI</h1>
+                        <h1 id="0563ov38z2pppts02ni4pca" class="fon-tracked">Giới thiệu chung về Kenly Việt Nam</h1>
                     </header>
 
                     <div class="row">
@@ -472,15 +468,16 @@
                         </div>
                         <div class="col-sm-9 wow fadeInRight animated" data-wow-delay="0.2">
 
-                            <p>KASAI là công ty hoạt động trong lĩnh vực kiến trúc và xây dựng, được thành
-                                lập bởi đội ngũ KTS trẻ, năng động, sáng tạo, nhiệt huyết cùng sự dẫn dắt của các
-                                KTS có uy tín trong giới KTS Việt Nam. KASAI hoạt động văn phòng thiết kế từ tháng
-                                6/2009, và tới ngày 23/2/2012&nbsp;trở thành công ty cổ phần với tên gọi CÔNG TY CP
-                                KIẾN TRÚC &amp; XÂY DỰNG KASAI. KASAI chuyên thiết kế nhà vườn, khu nghỉ dưỡng, nội
-                                thất cao cấp. Thiết kế có nghiên cứu chuyên sâu về phong thủy được nghiên cứu khoa
-                                học và phù hợp với yếu tố tâm linh của người Việt. Mỗi hồ sơ thiết kế hướng tới giá
-                                trị hưởng thụ cao nhất, với đơn giá thiết kế hợp lý để công trình của chủ đầu tư tối
-                                giản những kinh phí trong quá trình thi công.</p>
+                            <p>Kenly Việt Nam là công ty hoạt động trong lĩnh vực kiến trúc, xây dựng, xây lắp nội thất.
+                                Đi lên từ một văn phòng thiết kế bởi những KTS trẻ, nhiệt huyết và sáng tạo. Trải qua
+                                nhiều năm dưới sự dìu dắt giúp đỡ của các KTS uy tín và giỏi trong nước và quốc tế cùng
+                                sự thử thách của thị trường về chất lượng bản vẽ và sản phẩm thi công. Kenly Việt Nam
+                                đã trở thành sự lựa chọn tin cậy đối với khách hàng, đối tác cho các công trình thiết kế
+                                và thi công trọn gói nhà phố, nhà vườn, biệt thự, nội thất cao cấp. Thiết kế của Kenly
+                                đề cao tính sáng tạo, hài hòa về phong thủy và các tiêu chí: Kỹ thuật - Công Năng - Thẩm
+                                Mĩ. Hãy đến với chúng tôi để được tư vấn kĩ càng và đưa các quyết định sáng suốt và hợp
+                                lý
+                                về ngôi nhà của bạn.</p>
 
 
                             <a href="http://thietkenhakasai.com/gioi-thieu-1/gioi-thieu-chung-1.aspx"
@@ -861,7 +858,8 @@
                                                                    title="Ho tro tu van qua Skype">Skype Message</a>
                                     </li>
                                     <li><strong>Email:</strong> <a href="mailto:luuhonglam0803@gmail.com"
-                                                                   title="Ho tro tu van qua email">luuhonglam0803@gmail.com</a>
+                                                                   title="Ho tro tu van qua email">luuhonglam0803@gmail
+                                            .com</a>
                                     </li>
                                     <li><strong>Cellphone:</strong> <span><a
                                                     onclick="goog_report_conversion (&#39;tel:+84931393270&#39;)"
