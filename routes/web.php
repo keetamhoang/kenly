@@ -18,6 +18,9 @@ Route::group(['prefix' => 'admin',
     Route::get('posts', 'Backend\PostController@index');
     Route::get('posts/add', 'Backend\PostController@create');
 
+    Route::get('postAttribute.data', 'Backend\PostController@postAttribute');
+
+
     Route::get('users', 'Backend\UserController@index');
     Route::get('users/add', 'Backend\UserController@create');
 });

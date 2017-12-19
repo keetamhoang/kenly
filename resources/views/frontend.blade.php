@@ -124,6 +124,12 @@
             }
         ]
     });
+
+    $(document).ready(function (e) {
+        if ($('#main-menu .menu-button').length == 2) {
+            $('#main-menu .menu-button:first').remove();
+        }
+    });
 </script>
 
 @yield('js')

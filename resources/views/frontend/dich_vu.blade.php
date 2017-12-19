@@ -370,7 +370,6 @@
             var view1 = Math.floor(Math.random() * 351) + 150;
             var view2 = Math.floor(Math.random() * 351) + 150;
             var view3 = Math.floor(Math.random() * 351) + 150;
-            console.log(view1);
 
             $('#view-1').html(view1);
             $('#view-2').html(view2);

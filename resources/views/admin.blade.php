@@ -26,6 +26,9 @@
     <link href="/assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
     <link href="/assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/global/plugins/datatables/datatables.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" rel="stylesheet"
+          type="text/css"/>
     <!-- END PAGE LEVEL PLUGINS -->
     <!-- BEGIN THEME GLOBAL STYLES -->
     <link href="/assets/global/css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
@@ -37,6 +40,8 @@
     <link href="/assets/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css" />
     <!-- END THEME LAYOUT STYLES -->
     <link rel="shortcut icon" href="favicon.ico" /> </head>
+
+    @yield('styles')
 <!-- END HEAD -->
 
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-md">
@@ -118,9 +123,7 @@
             <!-- BEGIN CONTENT BODY -->
             <div class="page-content">
                 <!-- BEGIN PAGE TITLE-->
-                <h1 class="page-title"> Admin Dashboard
-                    <small>statistics, charts, recent events and reports</small>
-                </h1>
+                @yield('content')
             </div>
             <!-- END CONTENT BODY -->
         </div>
@@ -185,6 +188,10 @@
 <script src="/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
 <script src="/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
 <script src="/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+<script src="/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+<script src="/assets/global/scripts/datatable.js" type="text/javascript"></script>
+<script src="/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js"
+        type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="/assets/global/scripts/app.min.js" type="text/javascript"></script>
@@ -202,6 +209,8 @@
 <!-- End -->
 
 <!-- Google Tag Manager -->
+
+@yield('scripts')
 </body>
 
 
