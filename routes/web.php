@@ -17,8 +17,16 @@ Route::group(['prefix' => 'admin',
     Route::get('/', 'Backend\HomeController@index');
     Route::get('posts', 'Backend\PostController@index');
     Route::get('posts/add', 'Backend\PostController@create');
-
+    Route::get('posts/{id}', 'Backend\PostController@edit');
+    Route::post('posts/store', 'Backend\PostController@store');
     Route::get('postAttribute.data', 'Backend\PostController@postAttribute');
+
+    Route::get('categories', 'Backend\CategoryController@index');
+    Route::get('categories/add', 'Backend\CategoryController@create');
+    Route::get('categories/{id}', 'Backend\CategoryController@edit');
+    Route::post('categories/store', 'Backend\CategoryController@store');
+    Route::get('categoryAttribute.data', 'Backend\CategoryController@categoryAttribute');
+
 
 
     Route::get('users', 'Backend\UserController@index');

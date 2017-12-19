@@ -846,7 +846,7 @@
                         <article class="entry-item">
                             <div class="entry-thumb"><img
                                         alt="Nhân viên Lưu Hồng Lâm của công ty cổ phần cơ khí Vinh"
-                                        src="/files/images/3.png">
+                                        src="/files/images/logo.jpg">
                             </div>
                             <div class="entry-content">
                                 <header><h4 class="entry-title">Lưu Hồng Lâm</h4></header>

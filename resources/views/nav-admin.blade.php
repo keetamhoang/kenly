@@ -25,7 +25,7 @@
                 <span class="arrow open"></span>
             </a>
             <ul class="sub-menu">
-                <li class="nav-item start active open">
+                <li class="nav-item start">
                     <a href="{{ url('admin/users') }}" class="nav-link ">
                         <span class="title">Danh sách thành viên</span>
                         <span class="selected"></span>
@@ -41,13 +41,35 @@
 
         <li class="nav-item">
             <a href="javascript:;" class="nav-link nav-toggle">
+                <i class="fa fa-list-alt"></i>
+                <span class="title">Quản lý danh mục</span>
+                <span class="selected"></span>
+                <span class="arrow open"></span>
+            </a>
+            <ul class="sub-menu">
+                <li class="nav-item start">
+                    <a href="{{ url('admin/categories') }}" class="nav-link ">
+                        <span class="title">Danh sách danh mục</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+                <li class="nav-item start ">
+                    <a href="{{ url('admin/categories/add') }}" class="nav-link ">
+                        <span class="title">Thêm mới</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav-item">
+            <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="fa fa-book"></i>
                 <span class="title">Quản lý bài viết</span>
                 <span class="selected"></span>
                 <span class="arrow open"></span>
             </a>
             <ul class="sub-menu">
-                <li class="nav-item start active open">
+                <li class="nav-item start">
                     <a href="{{ url('admin/posts') }}" class="nav-link ">
                         <span class="title">Danh sách bài viết</span>
                         <span class="selected"></span>

@@ -21,7 +21,7 @@
     @yield('css')
     @yield('styles')
 
-    <link rel="shortcut icon" type="image/x-icon" href="http://thietkenhakasai.com/Images/logo.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="/files/images/favicon.ico">
     <meta property="og:site_name" content="Cty TNHH Tư vấn thiết kế và xây dựng Kenly Việt Nam">
     <meta property="og:locale" itemprop="inLanguage" content="vi_VN">
     <meta property="og:type" content="article">

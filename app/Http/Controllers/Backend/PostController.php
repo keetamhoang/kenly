@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Backend;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\Facades\DataTables;
 
 class PostController extends AdminController
@@ -21,15 +23,7 @@ class PostController extends AdminController
     public function datatable($posts)
     {
         return DataTables::of($posts)
-            ->editColumn('link', function ($brand) {
-                if (strpos('http', $brand->link) !== false) {
-                    $url = '<a href="' . $brand->link . '" target="_blank">'.$brand->link.'</a>';
-                } else {
-                    $url = '<a href="http://' . $brand->link . '" target="_blank">' . $brand->link . '</a>';
-                }
-
-                return $url;
-            })->editColumn('status', function ($brand) {
+            ->editColumn('status', function ($brand) {
                 if ($brand->status == config('const.ACTIVE')) {
                     $text = '<button data-brand-id="' . $brand->id . '" class="btn btn-success status-btn" data-status="1" type="button">HIỂN THỊ</button>';
                 } else {
@@ -37,21 +31,41 @@ class PostController extends AdminController
                 }
 
                 return $text;
-            })->editColumn('image', function ($brand) {
-                $image = '<img src="'.$brand->image.'" style="width: 100%">';
-
-                $image = '<div style="width: 100px">'.$image.'</div>';
-
-                return $image;
-            })->addColumn('action', function ($brand) {
+            })
+            ->addColumn('action', function ($brand) {
                 $url = '<a type="button" class="btn blue btn-outline" href="/admin/brands/'.$brand->id.'">Sửa</a><a href="/admin/brands/delete/'.$brand->id.'" type="button" class="btn red btn-outline delete-btn">Xóa</a>';
 
                 return $url;
-            })->addColumn('ck', function ($brand) {
-                $url = '<a data-brand-id="'.$brand->id.'" type="button" class="btn blue ck-btn">Xem CK</a>';
-
-                return $url;
-            })->rawColumns(['link', 'image', 'action', 'status', 'ck'])
+            })
+            ->rawColumns(['action', 'status'])
             ->make(true);
+    }
+
+    public function create() {
+        return view('admin.posts.create');
+    }
+
+    public function store(Request $request) {
+        $data = $request->all();
+
+        $data['image'] = ($request->file('image') && $request->file('image')->isValid()) ? $this->saveImage($request->file('image')) : '';
+
+        try {
+            $post = Post::create($data);
+        } catch (\Exception $e) {
+            return redirect('admin/posts/add')->with('Lỗi! Thêm mới không thành công');
+        }
+
+        return redirect('admin/posts/'. $post->id)->with('Thêm mới thành công');
+    }
+
+    public function edit($id) {
+        $post = Post::find($id);
+
+        if (empty($post)) {
+            return redirect()->back()->with('error', 'Không tồn tại');
+        }
+
+        return view('admin.posts.edit', compact('post'));
     }
 }
