@@ -9,28 +9,27 @@
                 </header>
 
                 <ul class="form-list">
-                    <li><h2 id="0spa97bbj1wkragl5n63n6" class="fon-tracked">Công ty TNHH tư vấn thiết kế kiến
-                            trúc-xây dựng Kasai</h2></li>
+                    <li><h2 id="0spa97bbj1wkragl5n63n6" class="fon-tracked">Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam</h2></li>
                     <li><i class="fa fa-home"></i>
                         <p><span>Address:</span> <a class="popup-gmaps" title="Xem bản đồ tìm đến chúng tôi"
-                                                    href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.681385293911!2d108.22573471542813!3d16.030093088905137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219e5316abec7%3A0x3e0d47f4480e7472!2zSMOzYSBTxqFuIDYsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1480171579054">Số
-                                14, đường Trần Kế Xương, Quận Hải Châu, Đà Nẵng</a></p>
+                                                    href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.681385293911!2d108.22573471542813!3d16.030093088905137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219e5316abec7%3A0x3e0d47f4480e7472!2zSMOzYSBTxqFuIDYsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1480171579054">
+                                Updating...</a></p>
                     </li>
                     <li>
                         <i class="fa fa-phone"></i>
-                        <p><span>Phone:</span> <a href="tel:+84972903570"><span>0972903570</span></a></p>
+                        <p><span>Phone:</span> <a href="tel:+84969485908"><span>0969.485.908</span></a></p>
                     </li>
-                    <li>
-                        <i class="fa fa-fax"></i>
-                        <p><span>Fax:</span> <a href="tel:+84972903570"><span>0972903570</span></a></p>
-                    </li>
+                    {{--<li>--}}
+                        {{--<i class="fa fa-fax"></i>--}}
+                        {{--<p><span>Fax:</span> <a href="tel:+84972903570"><span>0972903570</span></a></p>--}}
+                    {{--</li>--}}
                     <li>
                         <i class="fa fa-mobile"></i>
-                        <p><span>Hotline:</span> <a href="tel:+84931393270"><span>0931393270</span></a></p>
+                        <p><span>Hotline:</span> <a href="tel:+84963492559"><span>0963.492.559</span></a></p>
                     </li>
                     <li><i class="fa fa-envelope-o"></i>
                         <p><span>Email:</span> <a target="_blank" rel="nofollow"
-                                                  href="mailto:kientruckasai@gmail.com">kientruckasai@gmail.com</a>
+                                                  href="mailto:design.kenhome@gmail.com">design.kenhome@gmail.com</a>
                         </p>
                     </li>
                 </ul>
@@ -39,7 +38,7 @@
             <div class="col-sm-12 col-md-4 fadeInUp visible" style="visibility: visible; animation-name: fadeInUp;">
                 <header><h4><i class="fa fa-facebook-official"></i>Nhắn tin qua facebook</h4></header>
                 <div class="fb-page fb_iframe_widget"
-                     data-href="https://www.facebook.com/T%C6%B0-V%E1%BA%A5n-Thi%E1%BA%BFt-K%E1%BA%BF-X%C3%A2y-D%E1%BB%B1ng-KASAI-2095760860651231/"
+                     data-href="https://www.facebook.com/keemusicbank/"
                      data-tabs="messages" data-width="420" data-height="300" data-small-header="true"
                      data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
                      fb-xfbml-state="rendered"
@@ -114,11 +113,11 @@
             <div class="footer-social">
                 <ul class="clearfix">
                     <li><a rel="nofollow" target="_blank"
-                           href="https://www.facebook.com/T%C6%B0-V%E1%BA%A5n-Thi%E1%BA%BFt-K%E1%BA%BF-X%C3%A2y-D%E1%BB%B1ng-KASAI-2095760860651231/"
+                           href="https://www.facebook.com/keemusicbank/"
                            class="fa fa-facebook"></a></li>
-                    <li><a rel="nofollow" target="_blank" href="http://thietkenhakasai.com/"
+                    <li><a rel="nofollow" target="_blank" href="http://kenlyvietnam.vn/"
                            class="fa fa-twitter"></a></li>
-                    <li><a rel="nofollow" target="_blank" href="http://thietkenhakasai.com/"
+                    <li><a rel="nofollow" target="_blank" href="http://kenlyvietnam.vn/"
                            class="fa fa-google-plus"></a></li>
                     <li><a rel="nofollow" target="_blank"
                            href="https://www.youtube.com/channel/UCbTSdebiX9TO98WSb1lWkOw"

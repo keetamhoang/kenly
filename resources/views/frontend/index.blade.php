@@ -16,7 +16,7 @@
 
                         <li style="width: 10%;">
                             <iframe src="https://www.youtube.com/embed/dEW-xhc_fZ4?autoplay=0&amp;rel=0&amp;enablejsapi=1&amp;playerapiid=ytplayer&amp;wmode=transparent&amp;controls=0&amp;modestbranding=1&amp;showinfo=0&amp;hd=1&amp;fs=0" style="opacity: 0;" id="widget2"></iframe>
-                            <a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-2-mat-tien-23.aspx"><img
+                            <a href="#"><img
                                         src="/files/images/Slider1.png"
                                         alt="nhà phố 2 tầng" title="" style="visibility: visible; margin-top: 0px;"></a>
                         </li>
@@ -43,7 +43,7 @@
             </div>
             <div class="ws_cover"
                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 10; background: rgb(255, 255, 255); opacity: 0;">
-                <a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-2-mat-tien-23.aspx"
+                <a href="#"
                    style="display: block; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
                    target=""></a></div>
             <div class="ws_effect ws_brick"
@@ -408,14 +408,14 @@
                 <div class="ws_bullets">
                     <div>
 
-                        <a href="http://thietkenhakasai.com/#" title="nhà phố 2 tầng"
+                        <a href="#" title="nhà phố 2 tầng"
                            class="ws_selbull"><span>1</span></a>
 
-                        <a href="http://thietkenhakasai.com/#" title="" class=""><span>2</span></a>
+                        <a href="#" title="" class=""><span>2</span></a>
 
-                        <a href="http://thietkenhakasai.com/#" title="" class=""><span>3</span></a>
+                        <a href="#" title="" class=""><span>3</span></a>
 
-                        <a href="http://thietkenhakasai.com/#" title="" class=""><span>4</span></a>
+                        <a href="#" title="" class=""><span>4</span></a>
 
                         <div class="ws_bulframe">
                             <div>
@@ -432,22 +432,22 @@
                             <span></span></div>
                     </div>
                 </div>
-                <a href="http://thietkenhakasai.com/#" class="ws_next"><span><i></i><b></b></span><img alt=""
+                <a href="#" class="ws_next"><span><i></i><b></b></span><img alt=""
                                                                                                        src="/files/images/tn-Slider2.png"><img
                             alt=""
                             src="/files/images/tn-Slider2.png"
-                            style=""></a><a href="http://thietkenhakasai.com/#"
+                            style=""></a><a href="#"
                                             class="ws_prev"><span><i></i><b></b></span><img alt=""
                                                                                             src="/files/images/tn-Slider4.jpg"><img
                             alt=""
                             src="/files/images/tn-Slider4.jpg"
-                            style=""></a><a href="http://thietkenhakasai.com/#"
+                            style=""></a><a href="#"
                                             class="ws_playpause ws_pause ws_hide"><span><i></i><b></b></span></a>
             </div>
             <div class="ws_video_btn ws_youtube">
                 <div></div>
             </div>
-            <a href="http://thietkenhakasai.com/#" class="ws_fullscreen"></a>
+            <a href="#" class="ws_fullscreen"></a>
         </div>
     </section>
     <section class="yellow-bg about">
@@ -480,7 +480,7 @@
                                 về ngôi nhà của bạn.</p>
 
 
-                            <a href="http://thietkenhakasai.com/gioi-thieu-1/gioi-thieu-chung-1.aspx"
+                            <a href="#"
                                class="theme-btn btn-style-two lined-btn-right">Xem thêm</a>
                         </div>
                     </div>
@@ -537,18 +537,18 @@
                                  alt="NHÀ PHỐ 3 TẦNG MANG PHONG CÁCH HIỆN ĐẠI, ẤM CÚNG VỚI CHI PHÍ 900 TRIỆU">
                             <figcaption>
                                 <h4>
-                                    <a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-3-tang-mang-phong-cach-hien-dai-am-cung-voi-chi-phi-900-trieu-47.aspx">NHÀ
+                                    <a href="#">NHÀ
                                         PHỐ 3 TẦNG MANG PHONG CÁCH HIỆN ĐẠI, ẤM CÚNG VỚI CHI PHÍ 900 TRIỆU</a></h4>
                                 <div class="content">
                                     <p>- Video Nội-Ngoại Thất&nbsp;<br>
                                         - Chủ Đầu Tư : Anh Thành - TP Hà Tĩnh<br>
-                                        - Đơn Vị Thiết Kế : Công Ty TNHH Tư Vấn Thiết Kế - Xây Dựng KASAI<br>
+                                        - Đơn Vị Thiết Kế : Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam<br>
                                         - LH : 0931393270 (Lâm) để được tư vấn thiết kế miễn phí</p>
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-3-tang-mang-phong-cach-hien-dai-am-cung-voi-chi-phi-900-trieu-47.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -559,17 +559,17 @@
                             <img src="/files/images/mau-nha-dep-800tr.jpg"
                                  alt="Mẫu nhà đẹp 800tr">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/biet-thu-4/mau-nha-dep-800tr-45.aspx">Mẫu
+                                <h4><a href="#">Mẫu
                                         nhà đẹp 800tr</a></h4>
                                 <div class="content">
                                     <p>Nhà mái thái- chi phí 800tr<br>
                                         - Chủ đầu tư: Mr.Trung- Điện Ngọc- Quảng Nam<br>
-                                        - Thiết kế: Công ty KASAI</p>
+                                        - Thiết kế: Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam</p>
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/biet-thu-4/mau-nha-dep-800tr-45.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -580,14 +580,14 @@
                             <img src="/files/images/nha-pho-hien-dai.jpg"
                                  alt="Nhà phố hiện đại">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-hien-dai-42.aspx">Nhà phố
+                                <h4><a href="#">Nhà phố
                                         hiện đại</a></h4>
                                 <div class="content">
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-hien-dai-42.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -598,15 +598,15 @@
                             <img src="/files/images/nha-pho-3-tang.jpg"
                                  alt="Nhà phố 3 tầng">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-3-tang-40.aspx">Nhà phố 3
+                                <h4><a href="#">Nhà phố 3
                                         tầng</a></h4>
                                 <div class="content">
-                                    <p>Công ty thiết kế: KASAI</p>
+                                    <p>Công ty thiết kế: Kenly Việt Nam</p>
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-3-tang-40.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -617,18 +617,18 @@
                             <img src="/files/images/nha-pho-2-mat-tien.jpg"
                                  alt="Nhà phố 2 mặt tiền">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-2-mat-tien-23.aspx">Nhà
+                                <h4><a href="#">Nhà
                                         phố 2 mặt tiền</a></h4>
                                 <div class="content">
                                     <p>Nhà phố 2 mặt tiền - 760 triệu hoàn thiện trọn gói<br>
                                         - Chủ đầu tư: Ông Hoàng Tuấn .<br>
-                                        - Thiết Kế: Công ty KASAI<br>
+                                        - Thiết Kế: Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam<br>
                                         - Diện tích 7.5x12. 3 phòng ngủ. Thiết kế phong cách hiện đại.</p>
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-2-mat-tien-23.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -639,7 +639,7 @@
                             <img src="/files/images/nha-pho-3-tang.jpg"
                                  alt="Nhà phố 3 tầng">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-3-tang-dep-20.aspx">Nhà
+                                <h4><a href="#">Nhà
                                         phố 3 tầng đẹp</a></h4>
                                 <div class="content">
                                     <p>Nhà phố 3 tầng 900 triệu</p>
@@ -647,7 +647,7 @@
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-3-tang-dep-20.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -658,14 +658,14 @@
                             <img src="/files/images/nha-pho-4-tang.jpg"
                                  alt="nhà 4x20">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-4-tang-19.aspx">nhà phố 4
+                                <h4><a href="#">nhà phố 4
                                         tầng</a></h4>
                                 <div class="content">
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-4-tang-19.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -677,7 +677,7 @@
                                  alt="Nhà Phố 5 x 20">
                             <figcaption>
                                 <h4>
-                                    <a href="http://thietkenhakasai.com/cong-trinh-khac-7/nha-pho-3-tang-tai-da-nang-17.aspx">Nhà
+                                    <a href="#">Nhà
                                         phố 3 tầng tại Đà Nẵng</a></h4>
                                 <div class="content">
                                     <p>Nhà phố 3 tầng 900 triệu</p>
@@ -685,7 +685,7 @@
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/cong-trinh-khac-7/nha-pho-3-tang-tai-da-nang-17.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -696,14 +696,14 @@
                             <img src="/files/images/biet-thu-2-tang.jpg"
                                  alt="phối cảnh góc công trình">
                             <figcaption>
-                                <h4><a href="http://thietkenhakasai.com/nha-pho-3/biet-thu-2-tang-15.aspx">Biệt Thự
+                                <h4><a href="#">Biệt Thự
                                         2 Tầng</a></h4>
                                 <div class="content">
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/biet-thu-2-tang-15.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -715,14 +715,14 @@
                                  alt="Khách sạn Sơn Phú Quý - Đường Nguyễn Văn Linh">
                             <figcaption>
                                 <h4>
-                                    <a href="http://thietkenhakasai.com/khach-san-va-resort-5/khach-san-son-phu-quy-duong-nguyen-van-linh-12.aspx">Khách
+                                    <a href="#">Khách
                                         sạn Sơn Phú Quý - Đường Nguyễn Văn Linh</a></h4>
                                 <div class="content">
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/khach-san-va-resort-5/khach-san-son-phu-quy-duong-nguyen-van-linh-12.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -734,14 +734,14 @@
                                  alt="Tổng công ty điện lực Miền Trung">
                             <figcaption>
                                 <h4>
-                                    <a href="http://thietkenhakasai.com/van-phong-6/tong-cong-ty-dien-luc-mien-trung-9.aspx">Tổng
+                                    <a href="#">Tổng
                                         công ty điện lực Miền Trung</a></h4>
                                 <div class="content">
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/van-phong-6/tong-cong-ty-dien-luc-mien-trung-9.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -753,14 +753,14 @@
                                  alt="Nhà phố đẹp - thành phố Quảng Ngãi">
                             <figcaption>
                                 <h4>
-                                    <a href="http://thietkenhakasai.com/nha-pho-3/nha-pho-dep-thanh-pho-quang-ngai-7.aspx">Nhà
+                                    <a href="#">Nhà
                                         phố đẹp - thành phố Quảng Ngãi</a></h4>
                                 <div class="content">
 
                                 </div>
 
                                 <a class="ct-btn"
-                                   href="http://thietkenhakasai.com/nha-pho-3/nha-pho-dep-thanh-pho-quang-ngai-7.aspx"><span>Chi tiết</span></a>
+                                   href="#"><span>Chi tiết</span></a>
                             </figcaption>
                         </figure>
                     </div>
@@ -768,7 +768,7 @@
 
                 </div>
             </div>
-            <div class="link-box"><a href="http://thietkenhakasai.com/Du-an.aspx"
+            <div class="link-box"><a href="#"
                                      class="theme-btn btn-style-two lined-btn-right">Xem thêm</a></div>
         </div>
     </section>
@@ -788,7 +788,7 @@
                     <div class="feature-box clearfix">
                         <i class="fa fa-building icon"></i>
                         <div class="content">
-                            <h4><a href="http://thietkenhakasai.com/dich-vu-2/thiet-ke-kien-truc-2.aspx">Thiết kế
+                            <h4><a href="#">Thiết kế
                                     kiến trúc</a></h4>
                             <ul>
                                 <li>Thiết kế các công trình nhà ở cao cấp, biệt thự, dinh thự.</li>
@@ -805,7 +805,7 @@
                     <div class="feature-box clearfix">
                         <i class="fa fa-building icon"></i>
                         <div class="content">
-                            <h4><a href="http://thietkenhakasai.com/dich-vu-2/thiet-ke-noi-that-3.aspx">Thiết kế nội
+                            <h4><a href="#">Thiết kế nội
                                     thất</a></h4>
                             <ul>
                                 <li>Thiết kế nội thất nhà hàng quán bar, quán cafe.</li>
@@ -820,7 +820,7 @@
                     <div class="feature-box clearfix">
                         <i class="fa fa-building icon"></i>
                         <div class="content">
-                            <h4><a href="http://thietkenhakasai.com/dich-vu-2/thi-cong-4.aspx">Thi công</a></h4>
+                            <h4><a href="#">Thi công</a></h4>
                             <ul>
                                 <li>Thi công từng phần, thi công trọn gói công trình.</li>
                                 <li>Thi công trang trí nội ngoại thất.</li>
@@ -845,28 +845,27 @@
                         style="visibility: visible; animation-name: fadeInLeft;">
                         <article class="entry-item">
                             <div class="entry-thumb"><img
-                                        alt="Nhân viên Lưu Hồng Lâm của công ty cổ phần cơ khí Vinh"
+                                        alt="CEO Nguyễn Luân của công ty tư vấn thiết kế và xây dựng Kenly Việt Nam"
                                         src="/files/images/logo.jpg">
                             </div>
                             <div class="entry-content">
-                                <header><h4 class="entry-title">Lưu Hồng Lâm</h4></header>
+                                <header><h4 class="entry-title">Nguyễn Luân</h4></header>
                                 <ul class="contact-box">
                                     <li><strong>Facebook:</strong> <a
-                                                href="https://www.facebook.com/messages/t/revit.dau" target="_blank"
+                                                href="https://www.facebook.com/messages/t/nguyen.luan.777" target="_blank"
                                                 title="Ho tro tu van qua Facebook">Facebook Message</a></li>
                                     <li><strong>Skype:</strong> <a href="skype:?chat"
                                                                    title="Ho tro tu van qua Skype">Skype Message</a>
                                     </li>
-                                    <li><strong>Email:</strong> <a href="mailto:luuhonglam0803@gmail.com"
-                                                                   title="Ho tro tu van qua email">luuhonglam0803@gmail
-                                            .com</a>
+                                    <li><strong>Email:</strong> <a href="mailto:design.kenhome@gmail.com"
+                                                                   title="Ho tro tu van qua email">design.kenhome@gmail.com</a>
                                     </li>
                                     <li><strong>Cellphone:</strong> <span><a
-                                                    onclick="goog_report_conversion (&#39;tel:+84931393270&#39;)"
-                                                    class="phone" href="tel:+84931393270">0931393270</a></span></li>
+                                                    onclick="goog_report_conversion (&#39;tel:+84969485908&#39;)"
+                                                    class="phone" href="tel:+84931393270">0969.485.908</a></span></li>
                                     <li><strong>Cellphone:</strong> <span><a class="phone"
-                                                                             onclick="goog_report_conversion (&#39;tel:+84972903570&#39;)"
-                                                                             href="tel:+84972903570">0972903570</a></span>
+                                                                             onclick="goog_report_conversion (&#39;tel:+84963492559&#39;)"
+                                                                             href="tel:+84972903570">0963.492.559</a></span>
                                     </li>
                                 </ul>
                             </div>
@@ -898,7 +897,7 @@
                                     <figcaption>
                                         <header>
                                             <h3>
-                                                <a href="http://thietkenhakasai.com/dich-vu-2/thiet-ke-kien-truc-2.aspx"
+                                                <a href="#"
                                                    tabindex="0">Thiết kế kiến trúc</a></h3>
                                             <div class="post-meta"><i class="fa fa-calendar"></i>
                                                 <time>10/10/2016 4:50</time>
@@ -928,7 +927,7 @@
                                     <figcaption>
                                         <header>
                                             <h3>
-                                                <a href="http://thietkenhakasai.com/dich-vu-2/thiet-ke-noi-that-3.aspx"
+                                                <a href="#"
                                                    tabindex="0">Thiết kế nội thất</a></h3>
                                             <div class="post-meta"><i class="fa fa-calendar"></i>
                                                 <time>10/10/2016 4:51</time>
@@ -957,7 +956,7 @@
                                          alt="Thi công">
                                     <figcaption>
                                         <header>
-                                            <h3><a href="http://thietkenhakasai.com/dich-vu-2/thi-cong-4.aspx"
+                                            <h3><a href="#"
                                                    tabindex="0">Thi công</a></h3>
                                             <div class="post-meta"><i class="fa fa-calendar"></i>
                                                 <time>10/10/2016 4:51</time>
