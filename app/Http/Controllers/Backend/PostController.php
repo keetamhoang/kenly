@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Backend;
 
+use App\Components\Unit;
+use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -23,6 +25,13 @@ class PostController extends AdminController
     public function datatable($posts)
     {
         return DataTables::of($posts)
+            ->editColumn('image', function ($brand) {
+                $image = '<img src="'.$brand->image.'" style="width: 100%">';
+
+                $image = '<div style="width: 100px">'.$image.'</div>';
+
+                return $image;
+            })
             ->editColumn('status', function ($brand) {
                 if ($brand->status == config('const.ACTIVE')) {
                     $text = '<button data-brand-id="' . $brand->id . '" class="btn btn-success status-btn" data-status="1" type="button">HIỂN THỊ</button>';
@@ -32,12 +41,23 @@ class PostController extends AdminController
 
                 return $text;
             })
+            ->editColumn('category_id', function ($brand) {
+                $category = Category::find($brand->category_id);
+
+                $text = '';
+
+                if (!empty($category)) {
+                    $text = $category->name;
+                }
+
+                return $text;
+            })
             ->addColumn('action', function ($brand) {
-                $url = '<a type="button" class="btn blue btn-outline" href="/admin/brands/'.$brand->id.'">Sửa</a><a href="/admin/brands/delete/'.$brand->id.'" type="button" class="btn red btn-outline delete-btn">Xóa</a>';
+                $url = '<a type="button" class="btn blue btn-outline" href="/admin/posts/'.$brand->id.'">Sửa</a><a href="/admin/posts/delete/'.$brand->id.'" type="button" class="btn red btn-outline delete-btn">Xóa</a>';
 
                 return $url;
             })
-            ->rawColumns(['action', 'status'])
+            ->rawColumns(['action', 'status', 'image'])
             ->make(true);
     }
 
@@ -49,6 +69,14 @@ class PostController extends AdminController
         $data = $request->all();
 
         $data['image'] = ($request->file('image') && $request->file('image')->isValid()) ? $this->saveImage($request->file('image')) : '';
+
+        $data['status'] = !empty($data['status']) and $data['status'] == 'on' ? 1: 0;
+        $data['is_highlight'] = !empty($data['is_highlight']) and $data['is_highlight'] == 'on' ? 1: 0;
+
+        $data['slug'] = Unit::create_slug($data['name']);
+
+        $data['created_by'] = auth('admin')->user()->name;
+        $data['view_count'] = 0;
 
         try {
             $post = Post::create($data);
@@ -67,5 +95,30 @@ class PostController extends AdminController
         }
 
         return view('admin.posts.edit', compact('post'));
+    }
+
+    public function update(Request $request) {
+        $data = $request->all();
+
+        $post = Post::find($data['id']);
+
+        if (empty($post)) {
+            return redirect()->back()->with('error', 'Không tồn tại');
+        }
+
+        $data['image'] = ($request->file('image') && $request->file('image')->isValid()) ? $this->saveImage($request->file('image')) : '';
+
+        if (empty($data['image'])) {
+            unset($data['image']);
+        }
+
+        $data['slug'] = Unit::create_slug($data['name']);
+
+        $data['status'] = !empty($data['status']) and $data['status'] == 'on' ? 1: 0;
+        $data['is_highlight'] = !empty($data['is_highlight']) and $data['is_highlight'] == 'on' ? 1: 0;
+
+        $post->update($data);
+
+        return redirect('admin/posts/'. $post->id)->with('success', 'Cập nhật thành công');
     }
 }

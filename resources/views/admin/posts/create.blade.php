@@ -1,7 +1,7 @@
 @extends('admin')
 
 @section('content')
-    <h3 class="h3-title">Thêm mới thương hiệu</h3>
+    <h3 class="h3-title">Thêm mới bài viết</h3>
 
     @include('flash_message')
 
@@ -9,16 +9,17 @@
         {{csrf_field()}}
         <div class="form-body">
             <div class="form-group">
-                <label class="col-md-3 control-label">Tên danh mục</label>
+                <label class="col-md-2 control-label">Tên bài viết</label>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Điền tên danh mục" name="name" value="{{ old('name') }}">
+                    <input type="text" class="form-control" placeholder="Điền tên bài viết" name="name" value="{{ old('name') }}">
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-md-3 control-label">Danh mục cha</label>
+                <label class="col-md-2 control-label">Danh mục</label>
                 <div class="col-md-6">
                     @php $parentIds = \App\Models\Category::all() @endphp
-                    <select class="form-control" name="parent_id">
+                    <select class="form-control" name="category_id">
+                        <option>--- Chọn danh mục ---</option>
                         @foreach($parentIds as $parentId)
                             <option value="{{ $parentId->id }}">{{ $parentId->name }}</option>
                         @endforeach
@@ -26,7 +27,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-md-3">Ảnh</label>
+                <label class="control-label col-md-2">Ảnh đại diện</label>
                 <div class="col-md-9">
                     <div class="fileinput fileinput-new" data-provides="fileinput">
                         <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
@@ -41,6 +42,46 @@
                         </div>
                     </div>
                     <div class="clearfix margin-top-10"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Miêu tả ngắn</label>
+                <div class="col-md-9">
+                                <textarea class="form-control ckeditor" placeholder="Điền miêu tả ngắn"
+                                          name="short_desc">{{ old('short_desc') }}</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Chi tiết</label>
+                <div class="col-md-9">
+                                <textarea class="form-control ckeditor" placeholder="Điền chi tiết"
+                                          name="desc">{{ old('desc') }}</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Là dự án nổi bật?</label>
+                <div class="col-md-9">
+                    <div class="mt-checkbox-inline">
+                        <label class="mt-checkbox mt-checkbox-outline">
+                            <input type="checkbox" name="is_highlight" checked>
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Có được hiển thị?</label>
+                <div class="col-md-9">
+                    <div class="mt-checkbox-inline">
+                        <label class="mt-checkbox mt-checkbox-outline">
+                            <input type="checkbox" name="status" checked>
+                            <span></span>
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,27 +99,6 @@
 @section('scripts')
     <script>
         $(document).ready(function () {
-            $('#add-row').click(function (e) {
-                var html = '<tr>' +
-                    '<td class="col-md-6">' +
-                    '<div class="form-group" style="margin: 0px;">' +
-                    '<input type="text" class="form-control unicase-form-control text-input" name="categories[]">' +
-                    '</div>' +
-                    '</td>' +
-                    '<td class="col-md-3">' +
-                    '<div class="form-group" style="margin: 0px;">' +
-                    '<input type="text" class="form-control unicase-form-control text-input" name="discounts[]">' +
-                    '</div>' +
-                    '</td>' +
-                    '<td class="col-md-3">' +
-                    '<div class="form-group" style="margin: 0px;">' +
-                    '<input type="text" class="form-control unicase-form-control text-input" name="discounts_real[]">' +
-                    '</div>' +
-                    '</td>' +
-                    '</tr>';
-
-                $('.discount-category').append(html);
-            });
         });
     </script>
 @endsection

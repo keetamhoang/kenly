@@ -24,6 +24,7 @@
                     <th>Tên danh mục</th>
                     <th>Slug</th>
                     <th>Ảnh</th>
+                    <th>Miêu tả ngắn</th>
                     <th>Hành động</th>
                 </tr>
                 </thead>
@@ -92,6 +93,7 @@
                 {data: 'name', name: 'name'},
                 {data: 'slug', name: 'slug'},
                 {data: 'image', name: 'image'},
+                {data: 'desc', name: 'desc'},
                 {data: 'action', name: 'action'},
             ],
 

@@ -19,7 +19,8 @@ class AdminController extends Controller
         try {
             $filename = md5(time()) . str_slug($file->getClientOriginalName()) . '.' . $file->getClientOriginalExtension();
 
-            $filename = '/files/' . $filename;
+            $name = '/public/files/'. $filename;
+            $filename = public_path('files').'/'.$filename;
 
             Image::make($file->getRealPath())->save($filename);
 
@@ -27,7 +28,7 @@ class AdminController extends Controller
                 @unlink(public_path($old));
             }
 
-            return $filename;
+            return $name;
         } catch (\Exception $ex) {
             dd($ex->getMessage());
         }

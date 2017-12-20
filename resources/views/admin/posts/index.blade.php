@@ -92,7 +92,7 @@
                 {data: 'id', name: 'id'},
                 {data: 'name', name: 'name'},
                 {data: 'image', name: 'image'},
-                {data: 'category', name: 'category'},
+                {data: 'category_id', name: 'category_id'},
                 {data: 'status', name: 'status'},
                 {data: 'action', name: 'action'},
             ],

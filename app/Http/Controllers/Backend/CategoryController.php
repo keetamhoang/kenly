@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\Facades\DataTables;
+use App\Components\Unit;
 
 class CategoryController extends AdminController
 {
@@ -52,8 +53,13 @@ class CategoryController extends AdminController
         }
 
         $data['image'] = ($request->file('image') && $request->file('image')->isValid()) ? $this->saveImage($request->file('image')) : '';
+        if (empty($data['image'])) {
+            unset($data['image']);
+        }
 
         try {
+            $data['slug'] = Unit::create_slug($data['name']);
+
             $post = Category::create($data);
         } catch (\Exception $e) {
             return redirect('admin/categories/add')->with('error', 'Lỗi! Thêm mới không thành công');
@@ -70,5 +76,27 @@ class CategoryController extends AdminController
         }
 
         return view('admin.categories.edit', compact('post'));
+    }
+
+    public function update(Request $request) {
+        $data = $request->all();
+
+        $category = Category::find($data['id']);
+
+        if (empty($category)) {
+            return redirect()->back()->with('error', 'Không tồn tại');
+        }
+
+        $data['image'] = ($request->file('image') && $request->file('image')->isValid()) ? $this->saveImage($request->file('image')) : '';
+
+        if (empty($data['image'])) {
+            unset($data['image']);
+        }
+
+        $data['slug'] = Unit::create_slug($data['name']);
+
+        $category->update($data);
+
+        return redirect('admin/categories/'. $category->id)->with('success', 'Cập nhật thành công');
     }
 }

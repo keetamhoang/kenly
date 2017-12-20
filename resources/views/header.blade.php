@@ -31,18 +31,11 @@
             <li class="has-sub"><span class="submenu-button"></span><a href="{{ url('du-an') }}">Dự
                     án</a>
                 <ul>
+                    @php $duAns = \App\Models\Category::where('parent_id', 3)->get() @endphp
 
-                    <li><a href="{{ url('du-an/nha-pho') }}">Nhà phố</a></li>
-
-                    <li><a href="{{ url('du-an/biet-thu') }}">Biệt thự</a></li>
-
-                    <li><a href="{{ url('du-an/khach-san') }}">Khách sạn &amp;
-                            Resort</a></li>
-
-                    <li><a href="{{ url('du-an/van-phong') }}">Văn phòng</a></li>
-
-                    <li><a href="{{ url('du-an/cong-trinh-khac') }}">Công trình khác</a></li>
-
+                    @foreach($duAns as $duAn)
+                        <li><a href="{{ url('du-an/' . $duAn->slug) }}">{{ $duAn->name }}</a></li>
+                    @endforeach
 
                 </ul>
             </li>
@@ -58,7 +51,7 @@
                 </ul>
             </li>
             <li><a href="{{ url('tin-tuc') }}">Tin tức</a></li>
-            <li><a href="{{ url('nha-pho') }}">Nhà phố</a></li>
+            <li><a href="{{ url('du-an/nha-pho') }}">Nhà phố</a></li>
             <li><a href="{{ url('lien-he') }}">Liên hệ</a></li>
         </ul>
     </nav>

@@ -68,9 +68,26 @@
     <link href="/assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color"/>
     <link href="/assets/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME LAYOUT STYLES -->
-    <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <link rel="shortcut icon" type="image/x-icon" href="/files/images/favicon.ico">
+    <style>
+        .page-header.navbar {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+        }
 
+        .page-header.navbar .menu-toggler>span, .page-header.navbar .menu-toggler>span:after, .page-header.navbar .menu-toggler>span:before, .page-header.navbar .menu-toggler>span:hover, .page-header.navbar .menu-toggler>span:hover:after, .page-header.navbar .menu-toggler>span:hover:before {
+            background: #000000;
+        }
+        .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover, .page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle {
+             background-color: #eee;
+        }
+        .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {
+            color: #000;
+        }
+    </style>
     @yield('styles')
+</head>
+
 <!-- END HEAD -->
 
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white page-md">
@@ -81,8 +98,8 @@
         <div class="page-header-inner ">
             <!-- BEGIN LOGO -->
             <div class="page-logo">
-                <a href="{{ url('/') }}">
-                    <img src="/assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" /> </a>
+                <a href="{{ url('/') }}" style="    width: 85%;">
+                    <img src="/files/images/logo-admin.png" alt="logo" class="logo-default" style="    width: 100%; margin-top: 8px" /> </a>
                 <div class="menu-toggler sidebar-toggler">
                     <span></span>
                 </div>
@@ -98,21 +115,13 @@
                 <ul class="nav navbar-nav pull-right">
                     <li class="dropdown dropdown-user">
                         <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <img alt="" class="img-circle" src="/assets/layouts/layout/img/avatar3_small.jpg" />
-                            <span class="username username-hide-on-mobile"> Nick </span>
+                            <img alt="" class="img-circle" src="/files/images/logo.jpg" />
+                            <span class="username username-hide-on-mobile"> {{ auth('admin')->user()->name }} </span>
                             <i class="fa fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-default">
                             <li>
-                                <a href="page_user_profile_1.html">
-                                    <i class="icon-user"></i> My Profile </a>
-                            </li>
-                            <li>
-                                <a href="app_calendar.html">
-                                    <i class="icon-calendar"></i> My Calendar </a>
-                            </li>
-                            <li>
-                                <a href="page_user_login_1.html">
+                                <a href="{{ url('logout') }}">
                                     <i class="icon-key"></i> Log Out </a>
                             </li>
                         </ul>
@@ -223,6 +232,7 @@
 <script src="/assets/global/scripts/datatable.js" type="text/javascript"></script>
 <script src="/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js"
         type="text/javascript"></script>
+<script src="/js/admin/ckeditor/ckeditor.js"></script>
 
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->

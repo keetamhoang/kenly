@@ -511,264 +511,41 @@
             </header>
             <ul class="gallery-cats clearfix">
                 <li class="active" data-filter="all"><span>Tất cả</span></li>
-                <li data-filter="3">
-                    <h3>Nhà phố</h3>
-                </li>
-                <li data-filter="4">
-                    <h3>Biệt thự</h3>
-                </li>
-                <li data-filter="5">
-                    <h3>Khách sạn &amp; Resort</h3>
-                </li>
-                <li data-filter="6">
-                    <h3>Văn phòng</h3>
-                </li>
-                <li data-filter="7">
-                    <h3>Công trình khác</h3>
-                </li>
+                @php $categories = \App\Models\Category::whereNotNull('parent_id')->orderBy('id', 'asc')->limit(5)->get(); @endphp
+
+                @foreach($categories as $category)
+                    <li data-filter="{{ $category->id }}">
+                        <h3>{{ $category->name }}</h3>
+                    </li>
+                @endforeach
             </ul>
             <div id="project" class="scrollbar" style="max-height: 712px;">
                 <div class="row" id="filtr-container" style="height: 976px;">
+                    @php $posts = \App\Models\Post::where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->get(); @endphp
 
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(0px, 0px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-3-tang-mang-phong-cach-hien-dai-am-cung-voi-chi-phi-900-trieu.jpg"
-                                 alt="NHÀ PHỐ 3 TẦNG MANG PHONG CÁCH HIỆN ĐẠI, ẤM CÚNG VỚI CHI PHÍ 900 TRIỆU">
-                            <figcaption>
-                                <h4>
-                                    <a href="#">NHÀ
-                                        PHỐ 3 TẦNG MANG PHONG CÁCH HIỆN ĐẠI, ẤM CÚNG VỚI CHI PHÍ 900 TRIỆU</a></h4>
-                                <div class="content">
-                                    <p>- Video Nội-Ngoại Thất&nbsp;<br>
-                                        - Chủ Đầu Tư : Anh Thành - TP Hà Tĩnh<br>
-                                        - Đơn Vị Thiết Kế : Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam<br>
-                                        - LH : 0931393270 (Lâm) để được tư vấn thiết kế miễn phí</p>
+                    @foreach($posts as $post)
+                        <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="{{ $post->category_id }}"
+                             style="transform: scale(1) translate3d(0px, 0px, 0px);">
+                            <figure>
+                                <img src="{{ $post->image }}"
+                                     alt="{{ $post->name }}">
+                                <figcaption>
+                                    <h4>
+                                        <a href="{{ url('chi-tiet/' . $post->slug . '-' . $post->id) }}">{{ $post->name }}</a></h4>
+                                    <div class="content">
+                                        {!! $post->short_desc !!}
+                                    </div>
 
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="4"
-                         style="transform: scale(1) translate3d(388px, 0px, 0px);">
-                        <figure>
-                            <img src="/files/images/mau-nha-dep-800tr.jpg"
-                                 alt="Mẫu nhà đẹp 800tr">
-                            <figcaption>
-                                <h4><a href="#">Mẫu
-                                        nhà đẹp 800tr</a></h4>
-                                <div class="content">
-                                    <p>Nhà mái thái- chi phí 800tr<br>
-                                        - Chủ đầu tư: Mr.Trung- Điện Ngọc- Quảng Nam<br>
-                                        - Thiết kế: Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam</p>
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(776px, 0px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-hien-dai.jpg"
-                                 alt="Nhà phố hiện đại">
-                            <figcaption>
-                                <h4><a href="#">Nhà phố
-                                        hiện đại</a></h4>
-                                <div class="content">
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(0px, 244px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-3-tang.jpg"
-                                 alt="Nhà phố 3 tầng">
-                            <figcaption>
-                                <h4><a href="#">Nhà phố 3
-                                        tầng</a></h4>
-                                <div class="content">
-                                    <p>Công ty thiết kế: Kenly Việt Nam</p>
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(388px, 244px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-2-mat-tien.jpg"
-                                 alt="Nhà phố 2 mặt tiền">
-                            <figcaption>
-                                <h4><a href="#">Nhà
-                                        phố 2 mặt tiền</a></h4>
-                                <div class="content">
-                                    <p>Nhà phố 2 mặt tiền - 760 triệu hoàn thiện trọn gói<br>
-                                        - Chủ đầu tư: Ông Hoàng Tuấn .<br>
-                                        - Thiết Kế: Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam<br>
-                                        - Diện tích 7.5x12. 3 phòng ngủ. Thiết kế phong cách hiện đại.</p>
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(776px, 244px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-3-tang.jpg"
-                                 alt="Nhà phố 3 tầng">
-                            <figcaption>
-                                <h4><a href="#">Nhà
-                                        phố 3 tầng đẹp</a></h4>
-                                <div class="content">
-                                    <p>Nhà phố 3 tầng 900 triệu</p>
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(0px, 488px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-4-tang.jpg"
-                                 alt="nhà 4x20">
-                            <figcaption>
-                                <h4><a href="#">nhà phố 4
-                                        tầng</a></h4>
-                                <div class="content">
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="7"
-                         style="transform: scale(1) translate3d(388px, 488px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-3-tang.png"
-                                 alt="Nhà Phố 5 x 20">
-                            <figcaption>
-                                <h4>
-                                    <a href="#">Nhà
-                                        phố 3 tầng tại Đà Nẵng</a></h4>
-                                <div class="content">
-                                    <p>Nhà phố 3 tầng 900 triệu</p>
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(776px, 488px, 0px);">
-                        <figure>
-                            <img src="/files/images/biet-thu-2-tang.jpg"
-                                 alt="phối cảnh góc công trình">
-                            <figcaption>
-                                <h4><a href="#">Biệt Thự
-                                        2 Tầng</a></h4>
-                                <div class="content">
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="5"
-                         style="transform: scale(1) translate3d(0px, 732px, 0px);">
-                        <figure>
-                            <img src="/files/images/khach-san-son-phu-quy-duong-nguyen-van-linh.jpg"
-                                 alt="Khách sạn Sơn Phú Quý - Đường Nguyễn Văn Linh">
-                            <figcaption>
-                                <h4>
-                                    <a href="#">Khách
-                                        sạn Sơn Phú Quý - Đường Nguyễn Văn Linh</a></h4>
-                                <div class="content">
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="6"
-                         style="transform: scale(1) translate3d(388px, 732px, 0px);">
-                        <figure>
-                            <img src="/files/images/tong-cong-ty-dien-luc-mien-trung.jpg"
-                                 alt="Tổng công ty điện lực Miền Trung">
-                            <figcaption>
-                                <h4>
-                                    <a href="#">Tổng
-                                        công ty điện lực Miền Trung</a></h4>
-                                <div class="content">
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="3"
-                         style="transform: scale(1) translate3d(776px, 732px, 0px);">
-                        <figure>
-                            <img src="/files/images/nha-pho-dep-thanh-pho-quang-ngai.jpg"
-                                 alt="Nhà phố đẹp - thành phố Quảng Ngãi">
-                            <figcaption>
-                                <h4>
-                                    <a href="#">Nhà
-                                        phố đẹp - thành phố Quảng Ngãi</a></h4>
-                                <div class="content">
-
-                                </div>
-
-                                <a class="ct-btn"
-                                   href="#"><span>Chi tiết</span></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-
+                                    <a class="ct-btn"
+                                       href="{{ url('chi-tiet/' . $post->slug . '-' . $post->id) }}"><span>Chi tiết</span></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    @endforeach
 
                 </div>
             </div>
-            <div class="link-box"><a href="#"
+            <div class="link-box"><a href="{{ url('du-an') }}"
                                      class="theme-btn btn-style-two lined-btn-right">Xem thêm</a></div>
         </div>
     </section>
@@ -854,18 +631,18 @@
                                     <li><strong>Facebook:</strong> <a
                                                 href="https://www.facebook.com/messages/t/nguyen.luan.777" target="_blank"
                                                 title="Ho tro tu van qua Facebook">Facebook Message</a></li>
-                                    <li><strong>Skype:</strong> <a href="skype:?chat"
-                                                                   title="Ho tro tu van qua Skype">Skype Message</a>
-                                    </li>
+                                    {{--<li><strong>Skype:</strong> <a href="skype:?chat"--}}
+                                                                   {{--title="Ho tro tu van qua Skype">Skype Message</a>--}}
+                                    {{--</li>--}}
                                     <li><strong>Email:</strong> <a href="mailto:design.kenhome@gmail.com"
                                                                    title="Ho tro tu van qua email">design.kenhome@gmail.com</a>
                                     </li>
                                     <li><strong>Cellphone:</strong> <span><a
                                                     onclick="goog_report_conversion (&#39;tel:+84969485908&#39;)"
-                                                    class="phone" href="tel:+84931393270">0969.485.908</a></span></li>
+                                                    class="phone" href="tel:+84969485908">0969.485.908</a></span></li>
                                     <li><strong>Cellphone:</strong> <span><a class="phone"
                                                                              onclick="goog_report_conversion (&#39;tel:+84963492559&#39;)"
-                                                                             href="tel:+84972903570">0963.492.559</a></span>
+                                                                             href="tel:+84963492559">0963.492.559</a></span>
                                     </li>
                                 </ul>
                             </div>

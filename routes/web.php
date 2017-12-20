@@ -19,12 +19,14 @@ Route::group(['prefix' => 'admin',
     Route::get('posts/add', 'Backend\PostController@create');
     Route::get('posts/{id}', 'Backend\PostController@edit');
     Route::post('posts/store', 'Backend\PostController@store');
+    Route::post('posts/update', 'Backend\PostController@update');
     Route::get('postAttribute.data', 'Backend\PostController@postAttribute');
 
     Route::get('categories', 'Backend\CategoryController@index');
     Route::get('categories/add', 'Backend\CategoryController@create');
     Route::get('categories/{id}', 'Backend\CategoryController@edit');
     Route::post('categories/store', 'Backend\CategoryController@store');
+    Route::post('categories/update', 'Backend\CategoryController@update');
     Route::get('categoryAttribute.data', 'Backend\CategoryController@categoryAttribute');
 
 
@@ -41,3 +43,13 @@ Route::post('register', 'Backend\AuthController@register');
 Route::get('logout', 'Backend\AuthController@logout');
 
 Route::get('dich-vu', 'Frontend\HomeController@dichVu');
+Route::get('du-an', 'Frontend\HomeController@duAn');
+Route::get('gioi-thieu', 'Frontend\HomeController@gioiThieu');
+Route::get('tin-tuc', 'Frontend\HomeController@tinTuc');
+Route::get('lien-he', 'Frontend\HomeController@lienHe');
+
+Route::get('du-an/{slug}', 'Frontend\HomeController@getPostsByCategory');
+Route::get('chi-tiet/{slug}-{id}', 'Frontend\HomeController@detailPost')
+    ->where(['slug' => '[a-zA-Z0-9-]+', 'id' => '[0-9-]+']);
+
+Route::get('test', 'Frontend\HomeController@test');

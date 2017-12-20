@@ -15,11 +15,17 @@
                 </div>
             </div>
             <div class="form-group">
+                <label class="col-md-3 control-label">Miêu tả ngắn</label>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Điền miêu tả" name="desc" value="{{ old('desc') }}">
+                </div>
+            </div>
+            <div class="form-group">
                 <label class="col-md-3 control-label">Danh mục cha</label>
                 <div class="col-md-6">
                     @php $parentIds = \App\Models\Category::all() @endphp
                     <select class="form-control" name="parent_id">
-                        <option value="" >Chọn danh mục cha</option>
+                        <option value="" >--- Chọn danh mục cha ---</option>
                         @foreach($parentIds as $parentId)
                             <option value="{{ $parentId->id }}">{{ $parentId->name }}</option>
                         @endforeach
@@ -31,7 +37,8 @@
                 <div class="col-md-9">
                     <div class="fileinput fileinput-new" data-provides="fileinput">
                         <div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
-                            <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image" alt="" /> </div>
+                            <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image" alt="" />
+                        </div>
                         <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 400px; max-height: 500px;"> </div>
                         <div>
                                                                 <span class="btn default btn-file">

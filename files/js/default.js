@@ -2845,18 +2845,22 @@ jQuery.extend(jQuery.easing, {
          * @private
          */
         _getArrayOfUniqueItems: function (arr1, arr2) {
-            var r = [], o = {}, l = arr2.length, i, v;
-            for (i = 0; i < l; i++) {
-                o[arr2[i].domIndex] = true;
-            }
-            l = arr1.length;
-            for (i = 0; i < l; i++) {
-                v = arr1[i];
-                if (!(v.domIndex in o)) {
-                    r.push(v);
+            try {
+                var r = [], o = {}, l = arr2.length, i, v;
+                for (i = 0; i < l; i++) {
+                    o[arr2[i].domIndex] = true;
                 }
+                l = arr1.length;
+                for (i = 0; i < l; i++) {
+                    v = arr1[i];
+                    if (!(v.domIndex in o)) {
+                        r.push(v);
+                    }
+                }
+                return r;
+            } catch (e) {
+
             }
-            return r;
         },
 
         /**
