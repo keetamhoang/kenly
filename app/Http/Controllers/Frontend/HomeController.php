@@ -61,4 +61,8 @@ class HomeController extends Controller
     public function lienHe() {
         return view('frontend.lien_he');
     }
+
+    public function phongCachSong() {
+        return view('frontend.phong_cach_song');
+    }
 }

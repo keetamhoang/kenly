@@ -47,6 +47,7 @@ Route::get('du-an', 'Frontend\HomeController@duAn');
 Route::get('gioi-thieu', 'Frontend\HomeController@gioiThieu');
 Route::get('tin-tuc', 'Frontend\HomeController@tinTuc');
 Route::get('lien-he', 'Frontend\HomeController@lienHe');
+Route::get('phong-cach-song', 'Frontend\HomeController@phongCachSong');
 
 Route::get('du-an/{slug}', 'Frontend\HomeController@getPostsByCategory');
 Route::get('chi-tiet/{slug}-{id}', 'Frontend\HomeController@detailPost')

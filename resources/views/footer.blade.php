@@ -11,9 +11,9 @@
                 <ul class="form-list">
                     <li><h2 id="0spa97bbj1wkragl5n63n6" class="fon-tracked">Công ty tư vấn thiết kế và xây dựng Kenly Việt Nam</h2></li>
                     <li><i class="fa fa-home"></i>
-                        <p><span>Address:</span> <a class="popup-gmaps" title="Xem bản đồ tìm đến chúng tôi"
-                                                    href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.681385293911!2d108.22573471542813!3d16.030093088905137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219e5316abec7%3A0x3e0d47f4480e7472!2zSMOzYSBTxqFuIDYsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1480171579054">
-                                Updating...</a></p>
+                        <p><span>Address:</span> <a class="popup-gmaps" title="Xem bản đồ tìm đến chúng tôi" target="_blank"
+                                                    href="https://www.google.com/maps/place/Ng%C3%B5+13,+M%E1%BB%99+Lao,+H%C3%A0+%C4%90%C3%B4ng,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@20.9838683,105.778722,18z/data=!3m1!4b1!4m5!3m4!1s0x31345333762131eb:0x1aaf9815b5c5da79!8m2!3d20.9838659!4d105.7797852">
+                                Số 50, dịch vụ 06, khu đô thị Mỗ Lao, Hà Đông, Hà Nội</a></p>
                     </li>
                     <li>
                         <i class="fa fa-phone"></i>
@@ -56,7 +56,7 @@
                     <div class="phone_animation_circle"></div>
                     <div class="phone_animation_circle_fill"></div>
                     <a class="phone_animation_circle_fill_icon"
-                       onclick="goog_report_conversion (&#39;tel:+84931393270&#39;)" href="tel:+84931393270"><i
+                       onclick="goog_report_conversion (&#39;tel:+84969485908&#39;)" href="tel:+84969485908"><i
                                 class="fa fa-phone"></i></a>
                 </div>
             </div>
