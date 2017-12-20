@@ -480,7 +480,7 @@
                                 về ngôi nhà của bạn.</p>
 
 
-                            <a href="#"
+                            <a href="{{ url('gioi-thieu') }}"
                                class="theme-btn btn-style-two lined-btn-right">Xem thêm</a>
                         </div>
                     </div>

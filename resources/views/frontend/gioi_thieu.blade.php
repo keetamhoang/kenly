@@ -33,6 +33,17 @@
                     <section class="Post-Content fadeInLeft visible" style="visibility: visible; animation-name: fadeInLeft;">
                         <div style="page-break-after:always"><span style="display:none">&nbsp;</span></div>
                         <img alt="Kenly Việt Nam" src="/files/images/intro.png" style="width: 100%">
+                        <p>Kenly Việt Nam là công ty hoạt động trong lĩnh vực kiến trúc, xây dựng, xây lắp nội thất.
+                            Đi lên từ một văn phòng thiết kế bởi những KTS trẻ, nhiệt huyết và sáng tạo. Trải qua
+                            nhiều năm dưới sự dìu dắt giúp đỡ của các KTS uy tín và giỏi trong nước và quốc tế cùng
+                            sự thử thách của thị trường về chất lượng bản vẽ và sản phẩm thi công. Kenly Việt Nam
+                            đã trở thành sự lựa chọn tin cậy đối với khách hàng, đối tác cho các công trình thiết kế
+                            và thi công trọn gói nhà phố, nhà vườn, biệt thự, nội thất cao cấp. Thiết kế của Kenly
+                            đề cao tính sáng tạo, hài hòa về phong thủy và các tiêu chí: Kỹ thuật - Công Năng - Thẩm
+                            Mĩ. Hãy đến với chúng tôi để được tư vấn kĩ càng và đưa các quyết định sáng suốt và hợp
+                            lý
+                            về ngôi nhà của bạn.</p>
+
                         <p style="text-align: center;padding:40px 0 15px;"><a class="bt-phone" onclick="goog_report_conversion ('tel:+84969485908')" href="tel:+84969485908"><i class="fa fa-phone"></i> Gọi tư vấn : 0969 485 908</a></p>
 
                         <h3>Tham khảo thêm các mẫu thiết kế nhà đẹp</h3>
