@@ -15,6 +15,12 @@ Route::group(['prefix' => 'admin',
     'middleware' => ['admin']
 ], function () {
     Route::get('/', 'Backend\HomeController@index');
+
+    Route::get('users', 'Backend\UserController@index');
+    Route::get('userAttribute.data', 'Backend\UserController@userAttribute');
+    Route::get('users/{id}', 'Backend\UserController@edit');
+    Route::post('users/update', 'Backend\UserController@update');
+
     Route::get('posts', 'Backend\PostController@index');
     Route::get('posts/add', 'Backend\PostController@create');
     Route::get('posts/{id}', 'Backend\PostController@edit');
@@ -48,6 +54,9 @@ Route::get('gioi-thieu', 'Frontend\HomeController@gioiThieu');
 Route::get('tin-tuc', 'Frontend\HomeController@tinTuc');
 Route::get('lien-he', 'Frontend\HomeController@lienHe');
 Route::get('phong-cach-song', 'Frontend\HomeController@phongCachSong');
+Route::get('cai-tao-nha-cu', 'Frontend\HomeController@caiTaoNhaCu');
+Route::get('quy-trinh-thiet-ke', 'Frontend\HomeController@quyTrinhThietKe');
+Route::get('quy-trinh-thi-cong', 'Frontend\HomeController@quyTrinhThiCong');
 
 Route::get('du-an/{slug}', 'Frontend\HomeController@getPostsByCategory');
 Route::get('chi-tiet/{slug}-{id}', 'Frontend\HomeController@detailPost')

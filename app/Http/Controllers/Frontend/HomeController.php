@@ -65,4 +65,16 @@ class HomeController extends Controller
     public function phongCachSong() {
         return view('frontend.phong_cach_song');
     }
+
+    public function quyTrinhThietKe() {
+        return view('frontend.phong_cach_song');
+    }
+
+    public function quyTrinhThiCong() {
+        return view('frontend.phong_cach_song');
+    }
+
+    public function caiTaoNhaCu() {
+        return view('frontend.cai_tao_nha_cu');
+    }
 }

@@ -1,7 +1,7 @@
 @extends('admin')
 
 @section('content')
-    <h3 class="h3-title">Thêm mới thương hiệu</h3>
+    <h3 class="h3-title">Chỉnh sửa bài viết</h3>
 
     @include('flash_message')
 

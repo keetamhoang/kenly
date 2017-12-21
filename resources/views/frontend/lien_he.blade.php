@@ -67,15 +67,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 captcha">
-                                <label>Mã Captcha:
-                                    <samp>*</samp></label>
-                                <img src="./files/images/ImageCaptcha.ashx"
-                                     id="imgCaptcha">
-                                <input name="ctl00$MainContent$txtCaptcha" type="text" id="txtCaptcha">
-                                <span class="btn-refresh" onclick="return RefreshCaptcha();return false;"><i
-                                            class="fa fa-refresh"></i></span>
-                            </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <a id="MainContent_ButtonSend" class="btn hvr-bounce-to-left"

@@ -5,13 +5,13 @@
                 <h2>
                     <a href="{{ url('/') }}">
                         <img src="/files/images/logo.jpg"
-                             alt="Công ty tư vấn, thiết kế kiến trúc nhà Đà Nẵng">
+                             alt="Cty TNHH Tư vấn thiết kế và xây dựng Kenly Việt Nam">
                     </a>
                 </h2>
             </div>
             <div class="banner col-sm-9">
                 <img src="/files/images/banner.png"
-                     alt="Mẫu nhà đẹp tại đà nẵng, công ty thiết kế xây dựng tại đà nẵng">
+                     alt="Cty TNHH Tư vấn thiết kế và xây dựng Kenly Việt Nam">
 
                 <div class="support"><p class="phone"><a href="tel:+84969485908"><i class="fa fa-phone"></i><span>0969.485.908</span></a><a
                                 href="tel:+84963492559"><i class="fa fa-phone"></i><span>0963.492.559</span></a></p>
@@ -51,8 +51,18 @@
                 </ul>
             </li>
             <li><a href="{{ url('phong-cach-song') }}">Phong cách sống</a></li>
-            <li><a href="{{ url('tin-tuc') }}">Tin tức</a></li>
+            <li><a href="{{ url('cai-tao-nha-cu') }}">Cải tạo nhà cũ</a></li>
+            {{--<li class="has-sub"><span class="submenu-button"></span>--}}
+                {{--<a href="#">Cải tạo nhà cũ</a>--}}
+                {{--<ul>--}}
+                    {{--<li><a href="{{ url('quy-trinh-thiet-ke') }}">Quy trình thiết kế</a></li>--}}
+                    {{--<li><a href="{{ url('quy-trinh-thi-cong') }}">Quy trình thi công</a></li>--}}
+                {{--</ul>--}}
+            {{--</li>--}}
             <li><a href="{{ url('lien-he') }}">Liên hệ</a></li>
+            @if (auth('admin')->user()->type == 'admin' || auth('admin')->user()->type == 'mode')
+                <li><a href="{{ url('admin') }}">Trang Admin</a></li>
+            @endif
         </ul>
     </nav>
 </header>
