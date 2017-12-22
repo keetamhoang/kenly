@@ -511,7 +511,7 @@
             </header>
             <ul class="gallery-cats clearfix">
                 <li class="active" data-filter="all"><span>Tất cả</span></li>
-                @php $categories = \App\Models\Category::whereNotNull('parent_id')->orderBy('id', 'asc')->limit(5)->get(); @endphp
+                @php $categories = \App\Models\Category::where('parent_id', config('const.DU_AN'))->orderBy('id', 'asc')->limit(5)->get(); @endphp
 
                 @foreach($categories as $category)
                     <li data-filter="{{ $category->id }}">
@@ -521,7 +521,7 @@
             </ul>
             <div id="project" class="scrollbar" style="max-height: 712px;">
                 <div class="row" id="filtr-container" style="height: 976px;">
-                    @php $posts = \App\Models\Post::where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->get(); @endphp
+                    @php $posts = \App\Models\Post::where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->limit(15)->get(); @endphp
 
                     @foreach($posts as $post)
                         <div class="col-md-4 col-sm-6 overlay filtr-item" data-category="{{ $post->category_id }}"

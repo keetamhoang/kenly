@@ -2,6 +2,23 @@
 
 @section('styles')
     <link href="/files/css/contact.css" rel="stylesheet">
+    <style>
+        .alert {
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            border: 1px solid;
+        }
+
+        .alert-danger {
+            color: red;
+        }
+
+        .alert-success {
+            color: green;
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -22,19 +39,24 @@
                         <div class="dividerHeading">
                             <h4><span>Liên hệ</span></h4>
                         </div>
+
+                        @include('flash_message')
+
                         <p>Trong trường hợp quý khách có bất kì thắc mắc hoặc đóng góp nào, xin vui lòng liên hệ với
                             chúng tôi theo thông tin dưới đây. Chúng tôi sẽ phản hồi lại quý khách trong thời gian
                             sớm nhất.</p>
                         <section id="contactForm">
+                            <form action="{{ url('gui-lien-he') }}" method="post">
+                            {{csrf_field()}}
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-lg-5 ">
-                                        <input name="ctl00$MainContent$txtName" type="text" id="MainContent_txtName"
+                                        <input name="name" type="text" id="MainContent_txtName"
                                                class="form-control" placeholder="Họ và Tên của bạn">
                                         <span id="MainContent_RequiredFieldValidator1" style="display:none;">Vui lòng điền Họ và Tên của bạn</span>
                                     </div>
                                     <div class="col-lg-7 ">
-                                        <input name="ctl00$MainContent$txtEmail" type="text" id="txtEmail"
+                                        <input name="email" type="text" id="txtEmail"
                                                class="form-control" placeholder="Vui lòng nhập Email của bạn.">
                                         <span id="MainContent_revEmail" style="display:none;">Địa chỉ email của bạn không hợp lệ.</span>
                                     </div>
@@ -43,7 +65,7 @@
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-5">
-                                        <input name="ctl00$MainContent$txtMobilePhone" type="text"
+                                        <input name="phone" type="text"
                                                id="txtMobilePhone" class="form-control"
                                                placeholder="Số điện thoại của bạn">
                                         <span id="MainContent_RequiredFieldValidator2" style="display:none;">Vui lòng nhập tiêu đề bạn muốn liên hệ</span>
@@ -51,7 +73,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-md-7">
-                                        <input name="ctl00$MainContent$txtSubject" type="text" id="txtSubject"
+                                        <input name="title" type="text" id="txtSubject"
                                                class="form-control" placeholder="Vấn đề bạn muốn liên hệ">
                                         <span id="MainContent_rfvUserSubject" style="display:none;">Vui lòng nhập tiêu đề bạn muốn liên hệ</span>
                                     </div>
@@ -60,7 +82,7 @@
                             <div class="row">
                                 <div class="form-group">
                                     <div class="col-md-12">
-                                            <textarea name="ctl00$MainContent$txtMessage" rows="7" cols="20"
+                                            <textarea name="content" rows="7" cols="20"
                                                       id="MainContent_txtMessage" class="form-control"
                                                       placeholder="Nội dung liên hệ"></textarea>
                                         <span id="MainContent_RequiredFieldValidatorMessage" style="display:none;">Vui lòng không để trống nội dung</span>
@@ -69,12 +91,13 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a id="MainContent_ButtonSend" class="btn hvr-bounce-to-left"
-                                       href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$ButtonSend&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><span
+                                    <button id="MainContent_ButtonSend" class="btn hvr-bounce-to-left"
+                                       type="submit"><span
                                                 class="btn-text">Gửi liên hệ</span> <strong class="icon"><i
-                                                    class="fa fa-envelope"></i></strong></a>
+                                                    class="fa fa-envelope"></i></strong></button>
                                 </div>
                             </div>
+                            </form>
                         </section>
                     </div>
 

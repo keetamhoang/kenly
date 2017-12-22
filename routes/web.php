@@ -39,6 +39,9 @@ Route::group(['prefix' => 'admin',
 
     Route::get('users', 'Backend\UserController@index');
     Route::get('users/add', 'Backend\UserController@create');
+
+    Route::get('lien-he', 'Backend\HomeController@lienHe');
+    Route::get('lienHeAttribute.data', 'Backend\HomeController@lienHeAttribute');
 });
 
 Route::get('/', 'Frontend\HomeController@index');
@@ -62,4 +65,9 @@ Route::get('du-an/{slug}', 'Frontend\HomeController@getPostsByCategory');
 Route::get('chi-tiet/{slug}-{id}', 'Frontend\HomeController@detailPost')
     ->where(['slug' => '[a-zA-Z0-9-]+', 'id' => '[0-9-]+']);
 
+Route::get('dich-vu/{slug}-{id}', 'Frontend\HomeController@detailPost')
+    ->where(['slug' => '[a-zA-Z0-9-]+', 'id' => '[0-9-]+']);
+
 Route::get('test', 'Frontend\HomeController@test');
+
+Route::post('gui-lien-he', 'Frontend\HomeController@guiLienHe');

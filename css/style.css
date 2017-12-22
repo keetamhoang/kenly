@@ -36,3 +36,9 @@
 .ctrlq.fb-button {
     top: 200px;
 }
+
+@media (min-width: 768px) {
+    .gallery-cats::before {
+        width: 0px;
+    }
+}

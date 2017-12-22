@@ -2,7 +2,7 @@
 
 @section('styles')
     <link href="/files/css/Other.css" rel="stylesheet">
-    <meta property="og:title" content="{{ $post->name }}" />
+    <meta property="og:title" content="{{ $post->name }} | Kenly Việt Nam" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://kenlyvietnam.vn{{ $post->image }}" />
     <meta property="og:url" content="http://kenlyvietnam.vn/{{ 'du-an/' . $post->slug.'-'.$post->id }}">

@@ -75,16 +75,16 @@ class PostController extends AdminController
 
         $data['slug'] = Unit::create_slug($data['name']);
 
-        $data['created_by'] = auth('admin')->user()->name;
+        $data['created_by'] = auth('admin')->user()->id;
         $data['view_count'] = 0;
 
         try {
             $post = Post::create($data);
         } catch (\Exception $e) {
-            return redirect('admin/posts/add')->with('Lỗi! Thêm mới không thành công');
+            return redirect('admin/posts/add')->with('error','Lỗi! Thêm mới không thành công');
         }
 
-        return redirect('admin/posts/'. $post->id)->with('Thêm mới thành công');
+        return redirect('admin/posts/'. $post->id)->with('success', 'Thêm mới thành công');
     }
 
     public function edit($id) {

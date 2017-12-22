@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Models\Category;
+use App\Models\Mail;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -76,5 +77,21 @@ class HomeController extends Controller
 
     public function caiTaoNhaCu() {
         return view('frontend.cai_tao_nha_cu');
+    }
+
+    public function guiLienHe(Request $request) {
+        $data = $request->all();
+
+        if (empty($data['name']) or empty($data['email']) or empty($data['phone']) or empty($data['title']) or empty($data['content'])) {
+            return redirect()->back()->with('error', 'Hãy điền đủ thông tin');
+        }
+
+        try {
+            Mail::create($data);
+        } catch (\Exception $ex) {
+            return redirect()->back()->with('error', 'Không thành công');
+        }
+
+        return redirect()->back()->with('success', 'Gửi thành công');
     }
 }

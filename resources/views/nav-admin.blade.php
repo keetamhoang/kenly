@@ -83,6 +83,14 @@
             </ul>
         </li>
 
+        <li class="nav-item">
+            <a href="{{ url('admin/lien-he') }}" class="nav-link">
+                <i class="fa fa-address-card-o"></i>
+                <span class="title">Quản lý Liên hệ</span>
+                <span class="selected"></span>
+            </a>
+        </li>
+
         {{--<li class="nav-item">--}}
             {{--<a href="javascript:;" class="nav-link nav-toggle">--}}
                 {{--<i class="icon-folder"></i>--}}

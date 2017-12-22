@@ -28,15 +28,15 @@
     </ul>
 
 </div>
-<div class="note">
-    <i class="fa fa-tags"></i><strong> Chủ đề: </strong><a
-            title="Những bài viết liên quan đến: Nhà cấp 4"
-            href="http://thietkenhakasai.com/tag/nha-cap-4.aspx">Nhà cấp 4</a>, <a
-            title="Những bài viết liên quan đến: nhà đẹp 2 mặt tiền"
-            href="http://thietkenhakasai.com/tag/nha-dep-2-mat-tien.aspx">nhà đẹp 2 mặt tiền</a>, <a
-            title="Những bài viết liên quan đến: Nhà Phố"
-            href="http://thietkenhakasai.com/tag/nha-pho.aspx">Nhà Phố</a>
-</div>
+{{--<div class="note">--}}
+    {{--<i class="fa fa-tags"></i><strong> Chủ đề: </strong><a--}}
+            {{--title="Những bài viết liên quan đến: Nhà cấp 4"--}}
+            {{--href="http://thietkenhakasai.com/tag/nha-cap-4.aspx">Nhà cấp 4</a>, <a--}}
+            {{--title="Những bài viết liên quan đến: nhà đẹp 2 mặt tiền"--}}
+            {{--href="http://thietkenhakasai.com/tag/nha-dep-2-mat-tien.aspx">nhà đẹp 2 mặt tiền</a>, <a--}}
+            {{--title="Những bài viết liên quan đến: Nhà Phố"--}}
+            {{--href="http://thietkenhakasai.com/tag/nha-pho.aspx">Nhà Phố</a>--}}
+{{--</div>--}}
 <div id="MainContent_pCorrelative" class="recentposts list-entry other">
 
     <h2 class="recentposts-title fadeInDown visible fon-tracked" id="xt1j6aiayzepgygrf60s4"

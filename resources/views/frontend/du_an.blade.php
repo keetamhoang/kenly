@@ -26,7 +26,10 @@
                 <section class="row">
                     <ul id="MainContent_ctl00_ListViewListContent_itemPlaceholderContainer" class="row project">
                         @if ($isRoot)
-                            @php $posts = \App\Models\Post::where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->get(); @endphp
+                            @php
+                                $categories = \App\Models\Category::where('parent_id', config('const.DU_AN'))->get()->pluck('id');
+                                $posts = \App\Models\Post::where('status', config('const.ACTIVE'))->whereIn('category_id', $categories)->orderBy('created_at', 'desc')->get();
+                            @endphp
                         @else
                             @php $posts = \App\Models\Post::where('category_id', $category->id)->where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->get(); @endphp
                         @endif

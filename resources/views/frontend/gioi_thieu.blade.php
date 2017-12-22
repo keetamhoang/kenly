@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div class="fb-comments" data-href="{{ url('gioi-thieu') }}" data-width="100%" data-numposts="8"></div>
-                        </div>
+
                     </footer>
                 </article>
 

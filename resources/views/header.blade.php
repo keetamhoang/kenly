@@ -31,7 +31,7 @@
             <li class="has-sub"><span class="submenu-button"></span><a href="{{ url('du-an') }}">Dự
                     án</a>
                 <ul>
-                    @php $duAns = \App\Models\Category::where('parent_id', 3)->get() @endphp
+                    @php $duAns = \App\Models\Category::where('parent_id', config('const.DU_AN'))->get() @endphp
 
                     @foreach($duAns as $duAn)
                         <li><a href="{{ url('du-an/' . $duAn->slug) }}">{{ $duAn->name }}</a></li>
@@ -43,11 +43,11 @@
             <li class="has-sub"><span class="submenu-button"></span><a
                         href="{{ url('dich-vu') }}">Dịch vụ</a>
                 <ul>
-                    <li><a href="{{ url('dich-vu/thiet-ke-kien-truc') }}">Thiết kế kiến
-                            trúc</a></li>
-                    <li><a href="{{ url('dich-vu/thiet-ke-noi-that') }}">Thiết kế nội
-                            thất</a></li>
-                    <li><a href="{{ url('dich-vu/thi-cong') }}">Thi công</a></li>
+                    @php $dichVus = \App\Models\Post::where('category_id', config('const.DICH_VU'))->get() @endphp
+
+                    @foreach($dichVus as $dichVu)
+                        <li><a href="{{ url('dich-vu/'.$dichVu->slug.'-'.$dichVu->id) }}">{{ $dichVu->name }}</a></li>
+                    @endforeach
                 </ul>
             </li>
             <li><a href="{{ url('phong-cach-song') }}">Phong cách sống</a></li>
@@ -60,7 +60,7 @@
                 {{--</ul>--}}
             {{--</li>--}}
             <li><a href="{{ url('lien-he') }}">Liên hệ</a></li>
-            @if (auth('admin')->user()->type == 'admin' || auth('admin')->user()->type == 'mode')
+            @if (auth('admin')->check() and (auth('admin')->user()->type == 'admin' || auth('admin')->user()->type == 'mode'))
                 <li><a href="{{ url('admin') }}">Trang Admin</a></li>
             @endif
         </ul>
