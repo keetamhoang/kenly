@@ -55,7 +55,7 @@ class UserController extends AdminController
     }
 
     public function update(Request $request) {
-        if (auth('admin')->user()->type != 'admin') {
+        if (auth('admin')->user()->type != 'admin' or (auth('admin')->user()->id != $request->input('id') and $request->input('id') == 2)) {
             return redirect()->back()->with('error', 'Bạn không có quyền');
         }
 

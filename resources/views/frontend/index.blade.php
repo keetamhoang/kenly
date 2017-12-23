@@ -663,92 +663,36 @@
                 <div aria-live="polite" class="slick-list draggable">
                     <div class="slick-track"
                          style="opacity: 1; width: 1170px; transform: translate3d(0px, 0px, 0px);" role="listbox">
-                        <div class="item fadeInUp visible slick-slide slick-current slick-active"
-                             data-slick-index="0" aria-hidden="false"
-                             style="width: 390px; visibility: visible; animation-name: fadeInUp;" tabindex="-1"
-                             role="option" aria-describedby="slick-slide00">
-                            <article class="news">
-                                <figure>
-                                    <img src="/files/images/thiet-ke-kien-truc.jpg"
-                                         alt="Thiết kế kiến trúc">
-                                    <figcaption>
-                                        <header>
-                                            <h3>
-                                                <a href="#"
-                                                   tabindex="0">Thiết kế kiến trúc</a></h3>
-                                            <div class="post-meta"><i class="fa fa-calendar"></i>
-                                                <time>10/10/2016 4:50</time>
-                                                <i class="fa fa-eye"></i><span>262 lượt xem</span></div>
-                                        </header>
-                                        <div class="content">
-                                            <ul>
-                                                <li>Thiết kế các công trình nhà ở cao cấp, biệt thự, dinh thự.</li>
-                                                <li>Thiết kế các toà nhà văn phòng, trung tâm thương mại,các toà nhà
-                                                    cao tầng khác.
-                                                </li>
-                                                <li>Thiết kế khu du lịch, nhà nghỉ cuối tuần, resort.</li>
-                                            </ul>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </article>
-                        </div>
-                        <div class="item fadeInUp visible slick-slide slick-active" data-slick-index="1"
-                             aria-hidden="false"
-                             style="width: 390px; visibility: visible; animation-name: fadeInUp;" tabindex="-1"
-                             role="option" aria-describedby="slick-slide01">
-                            <article class="news">
-                                <figure>
-                                    <img src="/files/images/thiet-ke-noi-that.jpg"
-                                         alt="Thiết kế nội thất">
-                                    <figcaption>
-                                        <header>
-                                            <h3>
-                                                <a href="#"
-                                                   tabindex="0">Thiết kế nội thất</a></h3>
-                                            <div class="post-meta"><i class="fa fa-calendar"></i>
-                                                <time>10/10/2016 4:51</time>
-                                                <i class="fa fa-eye"></i><span>170 lượt xem</span></div>
-                                        </header>
-                                        <div class="content">
-                                            <ul>
-                                                <li>Thiết kế nội thất nhà hàng quán bar, quán cafe.</li>
-                                                <li>Thiết kế nội thất, ngoại thất nhà ở, nhà vườn.</li>
-                                                <li>Thiết kế trang trí nội thất văn phòng, showroom, gian trưng bày
-                                                    sản phẩm.
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </article>
-                        </div>
-                        <div class="item fadeInUp visible slick-slide slick-active" data-slick-index="2"
-                             aria-hidden="false"
-                             style="width: 390px; visibility: visible; animation-name: fadeInUp;" tabindex="-1"
-                             role="option" aria-describedby="slick-slide02">
-                            <article class="news">
-                                <figure>
-                                    <img src="/files/images/thi-cong.jpg"
-                                         alt="Thi công">
-                                    <figcaption>
-                                        <header>
-                                            <h3><a href="#"
-                                                   tabindex="0">Thi công</a></h3>
-                                            <div class="post-meta"><i class="fa fa-calendar"></i>
-                                                <time>10/10/2016 4:51</time>
-                                                <i class="fa fa-eye"></i><span>196 lượt xem</span></div>
-                                        </header>
-                                        <div class="content">
-                                            <ul>
-                                                <li>Thi công từng phần, thi công trọn gói công trình.</li>
-                                                <li>Thi công trang trí nội ngoại thất.</li>
-                                            </ul>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </article>
-                        </div>
+
+                        @php $dichVus = \App\Models\Post::where('category_id', config('const.DICH_VU'))->get() @endphp
+
+                        @foreach($dichVus as $key => $dichVu)
+                            <div class="item fadeInUp visible slick-slide slick-active" data-slick-index="{{ $key }}"
+                                 aria-hidden="false"
+                                 style="width: 390px; visibility: visible; animation-name: fadeInUp;" tabindex="-1"
+                                 role="option" aria-describedby="slick-slide02">
+                                <article class="news">
+                                    <figure>
+                                        <img src="{{ $dichVu->image }}"
+                                             alt="{{ $dichVu->name }}">
+                                        <figcaption>
+                                            <header>
+                                                <h3><a href="/dich-vu/{{ $dichVu->slug }}-{{ $dichVu->id }}"
+                                                       tabindex="0">{{ $dichVu->name }}</a></h3>
+                                                <div class="post-meta"><i class="fa fa-calendar"></i>
+                                                    <time>{{ \Carbon\Carbon::parse($dichVu->created_at)->format('H:i d/m/Y') }}</time>
+                                                    <i class="fa fa-eye"></i><span>{{ $dichVu->view_count }} lượt xem</span></div>
+                                            </header>
+                                            <div class="content">
+                                                {!! $dichVu->short_desc !!}
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+                        @endforeach
+
+
                     </div>
                 </div>
 
