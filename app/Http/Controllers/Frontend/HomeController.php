@@ -94,4 +94,8 @@ class HomeController extends Controller
 
         return redirect()->back()->with('success', 'Gửi thành công');
     }
+
+    public function xxx() {
+        return view('frontend.xxx');
+    }
 }

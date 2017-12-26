@@ -45,6 +45,8 @@ Route::group(['prefix' => 'admin',
 });
 
 Route::get('/', 'Frontend\HomeController@index');
+//Route::get('/', 'Frontend\HomeController@xxx');
+
 Route::get('dang-nhap', 'Backend\AuthController@loginView');
 Route::post('login', 'Backend\AuthController@login');
 Route::get('dang-ky', 'Backend\AuthController@registerView');
