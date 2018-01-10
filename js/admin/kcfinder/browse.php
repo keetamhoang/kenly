@@ -1,6 +1,6 @@
 <?php
 
-/** This file is part of KCFinder project
+/** This file is part of KCFinder projectddd
   *
   *      @desc Browser calling script
   *   @package KCFinder

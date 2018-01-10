@@ -251,7 +251,9 @@
 <!-- End -->
 
 <!-- Google Tag Manager -->
-
+<script>
+    CKEDITOR.config.filebrowserImageUploadUrl = '{!! route('uploadPhoto').'?_token='.csrf_token() !!}';
+</script>
 @yield('scripts')
 </body>
 

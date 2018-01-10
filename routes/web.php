@@ -73,3 +73,4 @@ Route::get('dich-vu/{slug}-{id}', 'Frontend\HomeController@detailPost')
 Route::get('test', 'Frontend\HomeController@test');
 
 Route::post('gui-lien-he', 'Frontend\HomeController@guiLienHe');
+Route::get('uploadPhoto', ['as' => 'uploadPhoto', 'uses' => 'Frontend\HomeController@guiLienHe']);
