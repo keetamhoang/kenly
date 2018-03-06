@@ -121,4 +121,16 @@ class PostController extends AdminController
 
         return redirect('admin/posts/'. $post->id)->with('success', 'Cập nhật thành công');
     }
+
+    public function delete($id) {
+        $post = Post::find($id);
+
+        if (empty($post)) {
+            return redirect('admin/posts')->with('error', 'Xóa không thành công');
+        }
+
+        $post->delete();
+
+        return redirect('admin/posts')->with('success', 'Xóa thành công');
+    }
 }

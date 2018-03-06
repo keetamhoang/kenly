@@ -38,7 +38,7 @@
             <div class="col-sm-12 col-md-4 fadeInUp visible" style="visibility: visible; animation-name: fadeInUp;">
                 <header><h4><i class="fa fa-facebook-official"></i>Nhắn tin qua facebook</h4></header>
                 <div class="fb-page fb_iframe_widget"
-                     data-href="https://www.facebook.com/keemusicbank/"
+                     data-href="https://www.facebook.com/CTy-TNHH-Tư-Vấn-Thiết-Kế-Xây-Dựng-Kenly-Việt-Nam-429732430763066"
                      data-tabs="messages" data-width="363" data-height="300" data-small-header="true"
                      data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
                      fb-xfbml-state="rendered"
@@ -111,18 +111,18 @@
             <hr>
 
             <div class="footer-social">
-                <ul class="clearfix">
-                    <li><a rel="nofollow" target="_blank"
-                           href="https://www.facebook.com/keemusicbank/"
-                           class="fa fa-facebook"></a></li>
-                    <li><a rel="nofollow" target="_blank" href="http://kenlyvietnam.vn/"
-                           class="fa fa-twitter"></a></li>
-                    <li><a rel="nofollow" target="_blank" href="http://kenlyvietnam.vn/"
-                           class="fa fa-google-plus"></a></li>
-                    <li><a rel="nofollow" target="_blank"
-                           href="https://www.youtube.com/channel/UCbTSdebiX9TO98WSb1lWkOw"
-                           class="fa fa-youtube-play"></a></li>
-                </ul>
+                {{--<ul class="clearfix">--}}
+                    {{--<li><a rel="nofollow" target="_blank"--}}
+                           {{--href="https://www.facebook.com/CTy-TNHH-Tư-Vấn-Thiết-Kế-Xây-Dựng-Kenly-Việt-Nam-429732430763066/"--}}
+                           {{--class="fa fa-facebook"></a></li>--}}
+                    {{--<li><a rel="nofollow" target="_blank" href="http://kenlyvietnam.vn/"--}}
+                           {{--class="fa fa-twitter"></a></li>--}}
+                    {{--<li><a rel="nofollow" target="_blank" href="http://kenlyvietnam.vn/"--}}
+                           {{--class="fa fa-google-plus"></a></li>--}}
+                    {{--<li><a rel="nofollow" target="_blank"--}}
+                           {{--href="https://www.youtube.com/channel/UCbTSdebiX9TO98WSb1lWkOw"--}}
+                           {{--class="fa fa-youtube-play"></a></li>--}}
+                {{--</ul>--}}
             </div>
 
         </div>

@@ -25,15 +25,6 @@
 
                 <section class="row">
                     <ul id="MainContent_ctl00_ListViewListContent_itemPlaceholderContainer" class="row project">
-                        @if ($isRoot)
-                            @php
-                                $categories = \App\Models\Category::where('parent_id', config('const.DU_AN'))->get()->pluck('id');
-                                $posts = \App\Models\Post::where('status', config('const.ACTIVE'))->whereIn('category_id', $categories)->orderBy('created_at', 'desc')->get();
-                            @endphp
-                        @else
-                            @php $posts = \App\Models\Post::where('category_id', $category->id)->where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->get(); @endphp
-                        @endif
-
                         @foreach($posts as $post)
                             <li class="col-sm-6 overlay">
                                 <figure>
@@ -58,13 +49,16 @@
 
                 @if (count($posts) > 0)
                 <div class="pager">
-                        <span id="MainContent_ctl00_ListViewListContent_DataPager1"><input type="submit"
-                                                                                           name="ctl00$MainContent$ctl00$ListViewListContent$DataPager1$ctl00$ctl00"
-                                                                                           value="|&lt;&lt;"
-                                                                                           disabled="disabled"
-                                                                                           class="aspNetDisabled">&nbsp;<span>1</span>&nbsp;<input
-                                    type="submit" name="ctl00$MainContent$ctl00$ListViewListContent$DataPager1$ctl02$ctl00"
-                                    value=" &gt;&gt;|" disabled="disabled" class="aspNetDisabled">&nbsp;</span>
+                        {{--<span id="MainContent_ctl00_ListViewListContent_DataPager1"><input type="submit"--}}
+                                                                                           {{--name="ctl00$MainContent$ctl00$ListViewListContent$DataPager1$ctl00$ctl00"--}}
+                                                                                           {{--value="|&lt;&lt;"--}}
+                                                                                           {{--disabled="disabled"--}}
+                                                                                           {{--class="aspNetDisabled">&nbsp;<span>1</span>&nbsp;<input--}}
+                                    {{--type="submit" name="ctl00$MainContent$ctl00$ListViewListContent$DataPager1$ctl02$ctl00"--}}
+                                    {{--value=" &gt;&gt;|" disabled="disabled" class="aspNetDisabled">&nbsp;</span>--}}
+                    <div class="archive-pagination pagination">
+                        {{ $posts->links('frontend.paginate') }}
+                    </div>
                 </div>
                 @else
                     <h2 id="ozj2gw5uuehngv057stsn" class="fon-tracked">Chúng tôi đang xây dựng nội dung</h2>

@@ -26,13 +26,25 @@ class HomeController extends Controller
         $category = Category::where('slug', $slug)->first();
         $isRoot = false;
 
-        return view('frontend.du_an', compact('category', 'isRoot'));
+        if ($isRoot) {
+            $categories = Category::where('parent_id', config('const.DU_AN'))->get()->pluck('id');
+            $posts = Post::where('status', config('const.ACTIVE'))->whereIn('category_id', $categories)->orderBy('created_at', 'desc')->paginate(10);
+        } else {
+            $posts = Post::where('category_id', $category->id)->where('status', config('const.ACTIVE'))->orderBy('created_at', 'desc')->paginate(10);
+        }
+
+        return view('frontend.du_an', compact('category', 'isRoot', 'posts'));
     }
 
     public function duAn() {
         $isRoot = true;
 
-        return view('frontend.du_an', compact('category', 'isRoot'));
+        if ($isRoot) {
+            $categories = Category::where('parent_id', config('const.DU_AN'))->get()->pluck('id');
+            $posts = Post::where('status', config('const.ACTIVE'))->whereIn('category_id', $categories)->orderBy('created_at', 'desc')->paginate(10);
+        }
+
+        return view('frontend.du_an', compact('category', 'isRoot', 'posts'));
     }
 
     public function detailPost($slug, $id) {
@@ -64,7 +76,9 @@ class HomeController extends Controller
     }
 
     public function phongCachSong() {
-        return view('frontend.phong_cach_song');
+        $posts = Post::where('category_id', config('const.PCS'))->paginate(10);
+
+        return view('frontend.phong_cach_song', compact('posts'));
     }
 
     public function quyTrinhThietKe() {
@@ -76,7 +90,9 @@ class HomeController extends Controller
     }
 
     public function caiTaoNhaCu() {
-        return view('frontend.cai_tao_nha_cu');
+        $posts = Post::where('category_id', config('const.PCS'))->paginate(10);
+
+        return view('frontend.cai_tao_nha_cu', compact('posts'));
     }
 
     public function guiLienHe(Request $request) {

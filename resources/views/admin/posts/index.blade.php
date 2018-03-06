@@ -131,7 +131,7 @@
             link = this;
 
             swal({
-                    title: "Bạn muốn xóa thương hiệu này?",
+                    title: "Bạn muốn xóa bài viết này?",
                     type: "warning",
                     showCancelButton: true,
                     confirmButtonColor: "#DD6B55",

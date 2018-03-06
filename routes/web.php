@@ -25,6 +25,7 @@ Route::group(['prefix' => 'admin',
     Route::get('posts/add', 'Backend\PostController@create');
     Route::get('posts/{id}', 'Backend\PostController@edit');
     Route::post('posts/store', 'Backend\PostController@store');
+    Route::get('posts/delete/{id}', 'Backend\PostController@delete');
     Route::post('posts/update', 'Backend\PostController@update');
     Route::get('postAttribute.data', 'Backend\PostController@postAttribute');
 

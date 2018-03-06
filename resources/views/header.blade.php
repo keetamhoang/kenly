@@ -31,7 +31,7 @@
             <li class="has-sub"><span class="submenu-button"></span><a href="{{ url('du-an') }}">Dự
                     án</a>
                 <ul>
-                    @php $duAns = \App\Models\Category::where('parent_id', config('const.DU_AN'))->get() @endphp
+                    @php $duAns = \App\Models\Category::where('parent_id', config('const.DU_AN'))->orderBy('piority', 'asc')->get() @endphp
 
                     @foreach($duAns as $duAn)
                         <li><a href="{{ url('du-an/' . $duAn->slug) }}">{{ $duAn->name }}</a></li>
