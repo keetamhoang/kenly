@@ -495,7 +495,7 @@
     <section class="portfolio">
         <div class="container">
             <header class="heading">
-                <h2 id="0pt1sbbthtsazxx3tlge2zl" class="fon-tracked">Mẫu <span>thiết kế mới</span></h2>
+                <h2 id="0pt1sbbthtsazxx3tlge2zl" class="fon-tracked"><span>Mẫu thiết kế mới</span></h2>
 
                 <ul>
                     <li>Bạn muốn sở hữu một căn nhà đẹp, tiên nghi giá cả phải chăng và có phong thủy hợp với gia
@@ -511,7 +511,7 @@
             </header>
             <ul class="gallery-cats clearfix">
                 <li class="active" data-filter="all"><span>Tất cả</span></li>
-                @php $categories = \App\Models\Category::where('parent_id', config('const.DU_AN'))->orderBy('id', 'asc')->limit(5)->get(); @endphp
+                @php $categories = \App\Models\Category::where('parent_id', config('const.DU_AN'))->orderBy('piority', 'asc')->limit(8)->get(); @endphp
 
                 @foreach($categories as $category)
                     <li data-filter="{{ $category->id }}">
@@ -612,7 +612,7 @@
     </section>
     <section class="white container">
         <header class="heading fadeInDown visible" style="visibility: visible; animation-name: fadeInDown;">
-            <h2 id="45ixfuw3i8heb512q7quce" class="fon-tracked">Tư vấn<span>, hỗ trợ trực tuyến</span></h2>
+            <h2 id="45ixfuw3i8heb512q7quce" class="fon-tracked"><span>Tư vấn, hỗ trợ trực tuyến</span></h2>
         </header>
         <div class="team-widget">
             <div class="widget-content">
@@ -656,13 +656,12 @@
     <section class="blog-news">
         <div class="container">
             <header class="heading">
-                <h2 id="ernn2a0rktvx12wor98nca" class="fon-tracked">Tin tức <span>&amp; Sự kiện</span></h2>
+                <h2 id="ernn2a0rktvx12wor98nca" class="fon-tracked"><span>Tin tức &amp; Sự kiện</span></h2>
             </header>
             <div class="slick-bolg slick-initialized slick-slider">
 
-                <div aria-live="polite" class="slick-list draggable">
-                    <div class="slick-track"
-                         style="opacity: 1; width: 1170px; transform: translate3d(0px, 0px, 0px);" role="listbox">
+                <div class="slick-list draggable">
+                    <div class="slick-track">
 
                         @php $dichVus = \App\Models\Post::where('category_id', config('const.DICH_VU'))->get() @endphp
 

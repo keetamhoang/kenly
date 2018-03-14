@@ -17,6 +17,10 @@
         margin: 0 auto;
         float: none;
     }
+
+    .slick-track .item {
+
+    }
 }
 
 @media (max-width: 991px) and (min-width: 768px), (min-width: 1200px) {

@@ -41,37 +41,37 @@
 
         </div>
     </aside>
-    <aside class="sidebar video fadeInRight visible"
-           style="visibility: visible; animation-name: fadeInRight;">
-        <header>
-            <h3>Video nổi bật</h3>
-        </header>
-        <div class="video-container" id="ytvideo">
-            <iframe width="360" height="203" src="https://www.youtube.com/embed/XOvqytCFlx8?&amp;rel=0" allowfullscreen=""></iframe>
-        </div>
-        <div class="nano has-scrollbar">
-            <div class="nano-content" tabindex="0" style="right: -17px;">
+    {{--<aside class="sidebar video fadeInRight visible"--}}
+           {{--style="visibility: visible; animation-name: fadeInRight;">--}}
+        {{--<header>--}}
+            {{--<h3>Video nổi bật</h3>--}}
+        {{--</header>--}}
+        {{--<div class="video-container" id="ytvideo">--}}
+            {{--<iframe width="360" height="203" src="https://www.youtube.com/embed/XOvqytCFlx8?&amp;rel=0" allowfullscreen=""></iframe>--}}
+        {{--</div>--}}
+        {{--<div class="nano has-scrollbar">--}}
+            {{--<div class="nano-content" tabindex="0" style="right: -17px;">--}}
 
-                <ul class="list-video list">
+                {{--<ul class="list-video list">--}}
 
 
-                    <li class="currentvideo"><a rel="nofollow"
-                                                href="https://www.youtube.com/watch?v=XOvqytCFlx8&amp;t=14s">Đẹp
-                            ngỡ ngàng nhà phố 2 mặt tiền</a></li>
+                    {{--<li class="currentvideo"><a rel="nofollow"--}}
+                                                {{--href="https://www.youtube.com/watch?v=XOvqytCFlx8&amp;t=14s">Đẹp--}}
+                            {{--ngỡ ngàng nhà phố 2 mặt tiền</a></li>--}}
 
-                    <li><a rel="nofollow" href="https://www.youtube.com/watch?v=J9yz-7s052U">45 mẫu nhà
-                            cấp 4 nhỏ đẹp, kiến trúc độc, lạ năm 2016</a></li>
+                    {{--<li><a rel="nofollow" href="https://www.youtube.com/watch?v=J9yz-7s052U">45 mẫu nhà--}}
+                            {{--cấp 4 nhỏ đẹp, kiến trúc độc, lạ năm 2016</a></li>--}}
 
-                    <li><a rel="nofollow" href="https://www.youtube.com/watch?v=A3yHzHyvRJk">Tư vấn
-                            thiết kế kiến trúc nhà ống 2,3 tầng đẹp và hiện đại</a></li>
+                    {{--<li><a rel="nofollow" href="https://www.youtube.com/watch?v=A3yHzHyvRJk">Tư vấn--}}
+                            {{--thiết kế kiến trúc nhà ống 2,3 tầng đẹp và hiện đại</a></li>--}}
 
-                </ul>
-            </div>
-            <div class="nano-pane">
-                <div class="nano-slider" style="height: 88px; transform: translate(0px, 0px);"></div>
-            </div>
-        </div>
-    </aside>
+                {{--</ul>--}}
+            {{--</div>--}}
+            {{--<div class="nano-pane">--}}
+                {{--<div class="nano-slider" style="height: 88px; transform: translate(0px, 0px);"></div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</aside>--}}
     <aside class="sidebar fadeInRight visible"
            style="visibility: visible; animation-name: fadeInRight;">
         <header>

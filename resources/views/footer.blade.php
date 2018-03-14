@@ -43,13 +43,7 @@
                      data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
                      fb-xfbml-state="rendered"
                      fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1317643348321872&amp;container_width=363&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FT%25C6%25B0-V%25E1%25BA%25A5n-Thi%25E1%25BA%25BFt-K%25E1%25BA%25BF-X%25C3%25A2y-D%25E1%25BB%25B1ng-KASAI-2095760860651231%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=messages&amp;width=100%">
-                        <span style="vertical-align: bottom; width: 363px; height: 300px;"><iframe
-                                    name="f332da1d766e7dc" width="100%" height="300px" frameborder="0"
-                                    allowtransparency="true" allowfullscreen="true" scrolling="no"
-                                    title="fb:page Facebook Social Plugin"
-                                    src="/files/page.html"
-                                    style="border: none; visibility: visible; width: 363px; height: 300px;"
-                                    class=""></iframe></span></div>
+                        <span style="vertical-align: bottom; width: 363px; height: 300px;"></span></div>
             </div>
             <div id="phone_animation">
                 <div class="phone_animation">
