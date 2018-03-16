@@ -8,445 +8,167 @@
             <div style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden;">
                 <div class="ws_list"
                      style="position: absolute; top: 0px; height: 100%; transform: translate3d(0px, 0px, 0px); width: 1000%; left: 0%; display: block;">
-                    <div class="ws_swipe_left"
-                         style="position: absolute; top: 0px; height: 100%; overflow: hidden; width: 10%; left: -10%;">
-                        <img src="/files/images/Slider4.jpg"
-                             alt="" title="" style="visibility: visible; margin-top: 0px;"></div>
+                    {{--<div class="ws_swipe_left"--}}
+                         {{--style="position: absolute; top: 0px; height: 100%; overflow: hidden; width: 10%; left: -10%;">--}}
+                        {{--<img src="/files/images/kenly(1).jpg"--}}
+                             {{--alt="" title="" style="visibility: visible; margin-top: 0px;"></div>--}}
                     <ul style="width: 100%;">
-
-                        <li style="width: 10%;">
-                            <iframe src="https://www.youtube.com/embed/dEW-xhc_fZ4?autoplay=0&amp;rel=0&amp;enablejsapi=1&amp;playerapiid=ytplayer&amp;wmode=transparent&amp;controls=0&amp;modestbranding=1&amp;showinfo=0&amp;hd=1&amp;fs=0" style="opacity: 0;" id="widget2"></iframe>
-                            <a href="#"><img
-                                        src="/files/images/Slider1.png"
-                                        alt="nhà phố 2 tầng" title="" style="visibility: visible; margin-top: 0px;"></a>
-                        </li>
-
-                        <li style="width: 10%;">
-                            <iframe src="https://www.youtube.com/embed/XOvqytCFlx8?autoplay=0&amp;rel=0&amp;enablejsapi=1&amp;playerapiid=ytplayer&amp;wmode=transparent&amp;controls=0&amp;modestbranding=1&amp;showinfo=0&amp;hd=1&amp;fs=0" style="opacity: 0;"></iframe>
-                            <img src="/files/images/Slider2.png"
-                                 alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
-
                         <li style="width: 10%;"><img
-                                    src="/files/images/Slider3.jpg"
+                                    src="/files/images/kenly(2).jpg"
                                     alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
 
                         <li style="width: 10%;"><img
-                                    src="/files/images/Slider4.jpg"
+                                    src="/files/images/kenly(3).jpg"
                                     alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
 
+                        <li style="width: 10%;"><img
+                                    src="/files/images/kenly(4).jpg"
+                                    alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
+
+                        {{--<li style="width: 10%;"><img--}}
+                                    {{--src="/files/images/Slider4.jpg"--}}
+                                    {{--alt="" title="" style="visibility: visible; margin-top: 0px;"></li>--}}
                     </ul>
-                    <div class="ws_swipe_right"
-                         style="position: absolute; top: 0px; height: 100%; overflow: hidden; width: 10%; left: 40%;">
-                        <img src="/files/images/Slider1.png"
-                             alt="nhà phố 2 tầng" title="" style="visibility: visible; margin-top: 0px;"></div>
+                    {{--<div class="ws_swipe_right"--}}
+                         {{--style="position: absolute; top: 0px; height: 100%; overflow: hidden; width: 10%; left: 40%;">--}}
+                        {{--<img src="/files/images/Slider1.png"--}}
+                             {{--alt="nhà phố 2 tầng" title="" style="visibility: visible; margin-top: 0px;"></div>--}}
                 </div>
             </div>
-            <div class="ws_cover"
-                 style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 10; background: rgb(255, 255, 255); opacity: 0;">
-                <a href="#"
-                   style="display: block; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
-                   target=""></a></div>
-            <div class="ws_effect ws_brick"
-                 style="position: absolute; top: 0px; left: 0px; width: 1903px; height: 654px; transform: translate3d(0px, 0px, 0px); transform-origin: 951.5px 327px 0px; perspective: 2000px; display: none; opacity: 1;">
-                <div style="position: absolute; left: 0%; top: 0%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 0; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: 0%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: 0%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(56, 56, 54); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(56, 56, 54); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(56, 56, 54); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(56, 56, 54); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 25%; top: 0%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 1; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -100%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -100%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(80, 90, 99); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(80, 90, 99); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(80, 90, 99); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(80, 90, 99); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 50%; top: 0%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 1; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -200%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -200%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(82, 93, 99); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(82, 93, 99); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(82, 93, 99); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(82, 93, 99); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 75%; top: 0%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 0; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -300%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -300%; top: 0%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(76, 89, 97); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(76, 89, 97); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(76, 89, 97); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(76, 89, 97); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 0%; top: 33.3333%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 1; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: 0%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: 0%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(59, 59, 59); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(59, 59, 59); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(59, 59, 59); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(59, 59, 59); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 25%; top: 33.3333%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 2; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -100%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -100%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(57, 54, 49); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(57, 54, 49); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(57, 54, 49); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(57, 54, 49); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 50%; top: 33.3333%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 2; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -200%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -200%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(28, 32, 33); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(28, 32, 33); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(28, 32, 33); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(28, 32, 33); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 75%; top: 33.3333%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 1; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -300%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -300%; top: -100%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(67, 81, 92); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(67, 81, 92); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(67, 81, 92); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(67, 81, 92); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 0%; top: 66.6667%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 0; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: 0%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: 0%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(50, 51, 53); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(50, 51, 53); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(50, 51, 53); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(50, 51, 53); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 25%; top: 66.6667%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 1; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -100%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -100%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(34, 34, 32); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(34, 34, 32); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(34, 34, 32); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(34, 34, 32); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 50%; top: 66.6667%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 1; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -200%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -200%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(88, 94, 106); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(88, 94, 106); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(88, 94, 106); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(88, 94, 106); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; left: 75%; top: 66.6667%; outline: transparent solid 1px; transform-style: preserve-3d; z-index: 0; overflow: visible; transform: translate3d(0px, 0px, 0px);">
-                    <div style="transform: rotateX(0deg) rotateY(0deg) translate3d(0px, 0px, 0px); outline: transparent solid 1px; transform-style: preserve-3d; width: 475.75px; height: 218px; left: 0px; top: 0px;">
-                        <div class="ws_front_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);">
-                            <img style="left: -300%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider3.jpg">
-                        </div>
-                        <div class="ws_back_image"
-                             style="position: absolute; width: 100%; height: 100%; overflow: hidden; backface-visibility: visible; transform: rotateY(180deg) translate3d(0px, 0px, 30px);">
-                            <img style="left: -300%; top: -200%; position: absolute; outline: transparent solid 1px; width: 1903px; height: 714px; margin-top: 0px; margin-left: 0px;"
-                                 src="/files/images/Slider4.jpg">
-                        </div>
-                        <div class="ws_left_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(34, 36, 35); transform: rotateY(90deg) translate3d(15px, 0px, -15px);"></div>
-                        <div class="ws_right_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 30px; height: 218px; background: rgb(34, 36, 35); transform: rotateY(90deg) translate3d(15px, 0px, 460.75px);"></div>
-                        <div class="ws_top_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(34, 36, 35); transform: rotateX(90deg) translate3d(0px, -15px, 15px);"></div>
-                        <div class="ws_bottom_edge"
-                             style="position: absolute; outline: transparent solid 1px; width: 475.75px; height: 30px; background: rgb(34, 36, 35); transform: rotateX(90deg) translate3d(0px, -15px, -203px);"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="ws_effect ws_domino"
-                 style="position: absolute; width: 100%; height: 100%; top: 0px; overflow: hidden; display: none;">
-                <div class="ws_zoom"></div>
-                <div class="ws_parts"></div>
-            </div>
-            <div class="ws_effect ws_slices"
-                 style="left: 0px; top: 0px; z-index: 8; overflow: hidden; width: 100%; height: 100%; position: absolute; display: none; opacity: 1;">
-                <div class="wow-slice"
-                     style="left: 0px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 127px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -127px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 254px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -254px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 381px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -381px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 508px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -508px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 635px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -635px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 762px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -762px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 889px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -889px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1016px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1016px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1143px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1143px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1270px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1270px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1397px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1397px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1524px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1524px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1651px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1651px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-                <div class="wow-slice"
-                     style="left: 1778px; overflow: hidden; width: 125px; position: absolute; height: 100%; opacity: 1;">
-                    <img style="position: absolute; left: -1778px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"
-                         src="/files/images/Slider3.jpg">
-                </div>
-            </div>
-            <div class="ws_effect ws_blinds"
-                 style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; z-index: 8; opacity: 1; display: none;">
-                <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"></div>
-                <div style="position: relative; display: inline-block; height: 100%; width: 33.334%; border: none; margin: 0px; overflow: hidden; top: 0px; left: 0px;"></div>
-                <div style="position: relative; display: inline-block; height: 100%; width: 33.334%; border: none; margin: 0px; overflow: hidden; top: 0px; left: 0px;"></div>
-                <div style="position: relative; display: inline-block; height: 100%; width: 33.334%; border: none; margin: 0px; overflow: hidden; top: 0px; left: 0px;"></div>
-            </div>
-            <div style="position: absolute; padding: 0px; z-index: 56; right: 15px; bottom: 15px;"></div>
-            <div class="ws_controls">
-                <div class="ws_bullets">
-                    <div>
+            {{--<div class="ws_effect ws_domino"--}}
+                 {{--style="position: absolute; width: 100%; height: 100%; top: 0px; overflow: hidden; display: none;">--}}
+                {{--<div class="ws_zoom"></div>--}}
+                {{--<div class="ws_parts"></div>--}}
+            {{--</div>--}}
+            {{--<div class="ws_effect ws_slices"--}}
+                 {{--style="left: 0px; top: 0px; z-index: 8; overflow: hidden; width: 100%; height: 100%; position: absolute; display: none; opacity: 1;">--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 0px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 127px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -127px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 254px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -254px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 381px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -381px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 508px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -508px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 635px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -635px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 762px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -762px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 889px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -889px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1016px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1016px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1143px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1143px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1270px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1270px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1397px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1397px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1524px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1524px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1651px; overflow: hidden; width: 127px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1651px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+                {{--<div class="wow-slice"--}}
+                     {{--style="left: 1778px; overflow: hidden; width: 125px; position: absolute; height: 100%; opacity: 1;">--}}
+                    {{--<img style="position: absolute; left: -1778px; top: 0px; transform: translate3d(0px, 0px, 0px); width: 1903px; margin-top: 0px; margin-left: 0px;"--}}
+                         {{--src="/files/images/Slider3.jpg">--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="ws_effect ws_blinds"--}}
+                 {{--style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; z-index: 8; opacity: 1; display: none;">--}}
+                {{--<div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;"></div>--}}
+                {{--<div style="position: relative; display: inline-block; height: 100%; width: 33.334%; border: none; margin: 0px; overflow: hidden; top: 0px; left: 0px;"></div>--}}
+                {{--<div style="position: relative; display: inline-block; height: 100%; width: 33.334%; border: none; margin: 0px; overflow: hidden; top: 0px; left: 0px;"></div>--}}
+                {{--<div style="position: relative; display: inline-block; height: 100%; width: 33.334%; border: none; margin: 0px; overflow: hidden; top: 0px; left: 0px;"></div>--}}
+            {{--</div>--}}
+            {{--<div style="position: absolute; padding: 0px; z-index: 56; right: 15px; bottom: 15px;"></div>--}}
+            {{--<div class="ws_controls">--}}
+                {{--<div class="ws_bullets">--}}
+                    {{--<div>--}}
 
-                        <a href="#" title="nhà phố 2 tầng"
-                           class="ws_selbull"><span>1</span></a>
+                        {{--<a href="#" title="nhà phố 2 tầng"--}}
+                           {{--class="ws_selbull"><span>1</span></a>--}}
 
-                        <a href="#" title="" class=""><span>2</span></a>
+                        {{--<a href="#" title="" class=""><span>2</span></a>--}}
 
-                        <a href="#" title="" class=""><span>3</span></a>
+                        {{--<a href="#" title="" class=""><span>3</span></a>--}}
 
-                        <a href="#" title="" class=""><span>4</span></a>
+                        {{--<a href="#" title="" class=""><span>4</span></a>--}}
 
-                        <div class="ws_bulframe">
-                            <div>
-                                <div style="width: 500%;"><img
-                                            src="/files/images/tn-Slider1.png"
-                                            alt="nhà phố 2 tầng"><img
-                                            src="/files/images/tn-Slider2.png"
-                                            alt=""><img
-                                            src="/files/images/tn-Slider3.jpg"
-                                            alt=""><img
-                                            src="/files/images/tn-Slider4.jpg"
-                                            alt=""></div>
-                            </div>
-                            <span></span></div>
-                    </div>
-                </div>
-                <a href="#" class="ws_next"><span><i></i><b></b></span><img alt=""
-                                                                                                       src="/files/images/tn-Slider2.png"><img
-                            alt=""
-                            src="/files/images/tn-Slider2.png"
-                            style=""></a><a href="#"
-                                            class="ws_prev"><span><i></i><b></b></span><img alt=""
-                                                                                            src="/files/images/tn-Slider4.jpg"><img
-                            alt=""
-                            src="/files/images/tn-Slider4.jpg"
-                            style=""></a><a href="#"
-                                            class="ws_playpause ws_pause ws_hide"><span><i></i><b></b></span></a>
-            </div>
-            <div class="ws_video_btn ws_youtube">
-                <div></div>
-            </div>
+                        {{--<div class="ws_bulframe">--}}
+                            {{--<div>--}}
+                                {{--<div style="width: 500%;"><img--}}
+                                            {{--src="/files/images/tn-Slider1.png"--}}
+                                            {{--alt="nhà phố 2 tầng"><img--}}
+                                            {{--src="/files/images/tn-Slider2.png"--}}
+                                            {{--alt=""><img--}}
+                                            {{--src="/files/images/tn-Slider3.jpg"--}}
+                                            {{--alt=""><img--}}
+                                            {{--src="/files/images/tn-Slider4.jpg"--}}
+                                            {{--alt=""></div>--}}
+                            {{--</div>--}}
+                            {{--<span></span></div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+                {{--<a href="#" class="ws_next"><span><i></i><b></b></span><img alt=""--}}
+                                                                                                       {{--src="/files/images/tn-Slider2.png"><img--}}
+                            {{--alt=""--}}
+                            {{--src="/files/images/tn-Slider2.png"--}}
+                            {{--style=""></a><a href="#"--}}
+                                            {{--class="ws_prev"><span><i></i><b></b></span><img alt=""--}}
+                                                                                            {{--src="/files/images/tn-Slider4.jpg"><img--}}
+                            {{--alt=""--}}
+                            {{--src="/files/images/tn-Slider4.jpg"--}}
+                            {{--style=""></a><a href="#"--}}
+                                            {{--class="ws_playpause ws_pause ws_hide"><span><i></i><b></b></span></a>--}}
+            {{--</div>--}}
+            {{--<div class="ws_video_btn ws_youtube">--}}
+                {{--<div></div>--}}
+            {{--</div>--}}
             <a href="#" class="ws_fullscreen"></a>
         </div>
     </section>
