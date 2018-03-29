@@ -14,15 +14,24 @@
                              {{--alt="" title="" style="visibility: visible; margin-top: 0px;"></div>--}}
                     <ul style="width: 100%;">
                         <li style="width: 10%;"><img
-                                    src="/files/images/kenly(2).jpg"
+                                    src="/files/images/slidee%20(1).jpg"
                                     alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
 
                         <li style="width: 10%;"><img
-                                    src="/files/images/kenly(3).jpg"
+                                    src="/files/images/slidee%20(2).jpg"
                                     alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
 
                         <li style="width: 10%;"><img
-                                    src="/files/images/kenly(4).jpg"
+                                    src="/files/images/slidee%20(3).jpg"
+                                    alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
+                        <li style="width: 10%;"><img
+                                    src="/files/images/slidee%20(4).jpg"
+                                    alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
+                        <li style="width: 10%;"><img
+                                    src="/files/images/slidee%20(5).jpg"
+                                    alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
+                        <li style="width: 10%;"><img
+                                    src="/files/images/slidee%20(6).jpg"
                                     alt="" title="" style="visibility: visible; margin-top: 0px;"></li>
 
                         {{--<li style="width: 10%;"><img--}}
