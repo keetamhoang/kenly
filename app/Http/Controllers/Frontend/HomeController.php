@@ -90,7 +90,7 @@ class HomeController extends Controller
     }
 
     public function caiTaoNhaCu() {
-        $posts = Post::where('category_id', config('const.PCS'))->paginate(10);
+        $posts = Post::where('category_id', config('const.CAI_TAO'))->paginate(10);
 
         return view('frontend.cai_tao_nha_cu', compact('posts'));
     }
