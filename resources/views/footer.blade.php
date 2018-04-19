@@ -38,11 +38,11 @@
             <div class="col-sm-12 col-md-4 fadeInUp visible" style="visibility: visible; animation-name: fadeInUp;">
                 <header><h4><i class="fa fa-facebook-official"></i>Nhắn tin qua facebook</h4></header>
                 <div class="fb-page fb_iframe_widget"
-                     data-href="https://www.facebook.com/CTy-TNHH-Tư-Vấn-Thiết-Kế-Xây-Dựng-Kenly-Việt-Nam-429732430763066"
+                     data-href="https://www.facebook.com/Kenlyvietnam/"
                      data-tabs="messages" data-width="363" data-height="300" data-small-header="true"
                      data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
                      fb-xfbml-state="rendered"
-                     fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1317643348321872&amp;container_width=363&amp;height=300&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FT%25C6%25B0-V%25E1%25BA%25A5n-Thi%25E1%25BA%25BFt-K%25E1%25BA%25BF-X%25C3%25A2y-D%25E1%25BB%25B1ng-KASAI-2095760860651231%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=messages&amp;width=100%">
+                     fb-iframe-plugin-query="">
                         <span style="vertical-align: bottom; width: 363px; height: 300px;"></span></div>
             </div>
             <div id="phone_animation">
