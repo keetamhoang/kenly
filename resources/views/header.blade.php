@@ -50,7 +50,7 @@
                     @endforeach
                 </ul>
             </li>
-            <li><a href="{{ url('phong-cach-song') }}">Phong cách sống</a></li>
+            <li><a href="{{ url('cong-trinh-dep') }}">Công trình đẹp</a></li>
             <li><a href="{{ url('cai-tao-nha-cu') }}">Cải tạo nhà cũ</a></li>
             {{--<li class="has-sub"><span class="submenu-button"></span>--}}
                 {{--<a href="#">Cải tạo nhà cũ</a>--}}

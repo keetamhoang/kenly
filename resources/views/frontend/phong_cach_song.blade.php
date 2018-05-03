@@ -9,12 +9,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 id="62heekvgcju2dspi5kck" class="fon-tracked">PHONG CÁCH SỐNG</h1>
+                    <h1 id="62heekvgcju2dspi5kck" class="fon-tracked">CÔNG TRÌNH ĐẸP</h1>
                 </div>
 
                 <section class="breadcrumb col-md-6">
                     <a class="home" href="{{ url('/') }}"><span itemprop="title">Trang chủ</span></a>
-                    <span>&nbsp;<i class="fa fa-angle-right"></i>&nbsp;</span><span><span itemprop="title">Phong cách sống</span></span>
+                    <span>&nbsp;<i class="fa fa-angle-right"></i>&nbsp;</span><span><span itemprop="title">Công trình đẹp</span></span>
                 </section>
             </div>
         </div>

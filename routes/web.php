@@ -59,7 +59,7 @@ Route::get('du-an', 'Frontend\HomeController@duAn');
 Route::get('gioi-thieu', 'Frontend\HomeController@gioiThieu');
 Route::get('tin-tuc', 'Frontend\HomeController@tinTuc');
 Route::get('lien-he', 'Frontend\HomeController@lienHe');
-Route::get('phong-cach-song', 'Frontend\HomeController@phongCachSong');
+Route::get('cong-trinh-dep', 'Frontend\HomeController@phongCachSong');
 Route::get('cai-tao-nha-cu', 'Frontend\HomeController@caiTaoNhaCu');
 Route::get('quy-trinh-thiet-ke', 'Frontend\HomeController@quyTrinhThietKe');
 Route::get('quy-trinh-thi-cong', 'Frontend\HomeController@quyTrinhThiCong');
